@@ -1,5 +1,5 @@
 <h1 align="center">Hola, soy Miller 👋</h1>
-<h3 align="center">Técnico en Ingeniería de Software + Dev autodidacta con hambre de construir cosas reales</h3>
+<h3 align="center">Técnico en Ingeniería de Software + Dev autodidacta con pasion de construir cosas reales</h3>
 
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjg0NjFqeGRtY3Z0ZG01YmFiaWNhaWhuYjNoZXg3cDNjMHZ6ZWk2OCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Gf3fU0qPtI6uk/giphy.gif" width="120"/>
@@ -9,7 +9,7 @@
 
 ### 🧠 Actualmente...
 
-- 💻 Aprendiendo **JavaScript** desde cero
+- 💻 Aprendiendo **JavaScript & typeScript** solido
 - 🧪 Subiendo código diario a [js-learning](https://github.com/Devmiller/js-learning) (repo privado, historial real de práctica)
 - 🧱 Desarrollando proyectos con NestJS, Prisma y Supabase
 - 🌱 Me interesa crecer como **Fullstack Dev**, con enfoque en back-end por ahora
@@ -50,8 +50,8 @@
 
 ### 🤝 Conectemos
 
-- 📬 devmiller@ejemplo.com *(pon tu correo real si quieres)*
-- 💼 LinkedIn: próximamente
+- 📬 castrojordy378@gmail.com 
+- 💼 LinkedIn:(https://www.linkedin.com/in/miller-castro-martinez-37b466249/)
 - ⚡ Fun fact: Mi gato me acompaña a programar 🐱
 
 ---
