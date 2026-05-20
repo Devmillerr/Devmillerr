@@ -1,3 +1,4 @@
+```md id="m8x2qp"
 <h1 align="center">Hi 👋, I'm Miller Castro</h1>
 
 <h3 align="center">
@@ -44,7 +45,7 @@ Backend API for personal and business finance management.
 - PDF Reports
 - Modular Architecture
 
-🔗 https://github.com/Devmiller
+🔗 https://github.com/Devmillerr/nestjs-finance-api
 
 ---
 
@@ -56,7 +57,7 @@ Customer and payment management backend system.
 - Scalable structure
 - TypeScript + Prisma
 
-🔗 https://github.com/Devmiller
+🔗 https://github.com/Devmillerr/task-manager-api
 
 ---
 
@@ -64,9 +65,9 @@ Customer and payment management backend system.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Devmiller&show_icons=true&theme=tokyonight" height="180"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Devmillerr&show_icons=true&theme=tokyonight" height="180"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Devmiller&layout=compact&theme=tokyonight" height="180"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Devmillerr&layout=compact&theme=tokyonight" height="180"/>
 
 </div>
 
@@ -76,3 +77,4 @@ Customer and payment management backend system.
 
 - LinkedIn: (your-link)
 - Email: castrojordy378@gmail.com
+```
