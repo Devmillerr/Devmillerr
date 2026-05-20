@@ -74,5 +74,5 @@ Customer and payment management backend system.
 
 ## 📫 Connect with Me
 
-- LinkedIn: (your-link)
+- LinkedIn: www.linkedin.com/in/devmillerr
 - Email: castrojordy378@gmail.com
