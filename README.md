@@ -1,4 +1,3 @@
-```md id="m8x2qp"
 <h1 align="center">Hi 👋, I'm Miller Castro</h1>
 
 <h3 align="center">
@@ -77,4 +76,3 @@ Customer and payment management backend system.
 
 - LinkedIn: (your-link)
 - Email: castrojordy378@gmail.com
-```
