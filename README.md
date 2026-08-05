@@ -172,46 +172,89 @@ Postman · VS Code
 </tr>
 </table>
 
-### 💰 API de Finanzas
+---
 
-Backend para administrar:
+## 🚀 Proyectos destacados
 
-- Usuarios y autenticación
-- Cuentas y transacciones
-- Reportes PDF
-- Seguridad con JWT
+<table>
+<tr>
 
-`NestJS` `TypeScript` `Prisma` `PostgreSQL`
-
-<div align="center">
-
-[![Repositorio](https://img.shields.io/badge/ABRIR_PROYECTO-2563EB?style=for-the-badge&logo=github)](https://github.com/Devmillerr/nestjs-finance-api)
-
-</div>
-
-</td>
 <td width="50%" valign="top">
 
-### ⚡ Mega Red
+<h3 align="center">💰 API de Finanzas</h3>
 
-Backend para administrar:
+<p align="center">
+Backend modular para la gestión financiera de usuarios y empresas.
+</p>
 
-- Clientes y servicios
-- Pagos y vencimientos
-- Acceso basado en roles
-- Procesos automatizados
+<br>
 
-`NestJS` `TypeScript` `Prisma` `PostgreSQL`
+<ul>
+  <li>Usuarios y autenticación</li>
+  <li>Cuentas y transacciones</li>
+  <li>Generación de reportes PDF</li>
+  <li>Seguridad mediante JWT</li>
+</ul>
 
-<div align="center">
+<br>
 
-[![Repositorio](https://img.shields.io/badge/ABRIR_PROYECTO-2563EB?style=for-the-badge&logo=github)](https://github.com/Devmillerr/mega-red)
+<p align="center">
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white"/>
+</p>
 
-</div>
+<br>
+
+<p align="center">
+  <a href="https://github.com/Devmillerr/nestjs-finance-api">
+    <img src="https://img.shields.io/badge/ABRIR_PROYECTO-2563EB?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
 
 </td>
+
+<td width="50%" valign="top">
+
+<h3 align="center">⚡ Mega Red</h3>
+
+<p align="center">
+Sistema backend para administrar clientes, servicios y pagos.
+</p>
+
+<br>
+
+<ul>
+  <li>Gestión de clientes y servicios</li>
+  <li>Control de pagos y vencimientos</li>
+  <li>Acceso basado en roles</li>
+  <li>Automatización de procesos</li>
+</ul>
+
+<br>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white"/>
+</p>
+
+<br>
+
+<p align="center">
+  <a href="https://github.com/Devmillerr/mega-red">
+    <img src="https://img.shields.io/badge/ABRIR_PROYECTO-2563EB?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
+
+</td>
+
 </tr>
 </table>
+
+---
 
 ---
 
