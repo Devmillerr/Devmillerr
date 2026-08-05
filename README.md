@@ -138,19 +138,6 @@ Convierto requerimientos operativos en soluciones digitales funcionales, validad
 ---
 
 ## 🚀 Proyectos destacados
-
-<div align="center">
-
-<a href="https://github.com/Devmillerr/nestjs-finance-api">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=Devmillerr&repo=nestjs-finance-api&theme=tokyonight&hide_border=true&border_radius=12"/>
-</a>
-
-<a href="https://github.com/Devmillerr/mega-red">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=Devmillerr&repo=mega-red&theme=tokyonight&hide_border=true&border_radius=12"/>
-</a>
-
-</div>
-
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -201,10 +188,6 @@ Backend para administrar:
 ## 📊 Actividad
 
 <div align="center">
-
-
-
-<br><br>
 
 <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=Devmillerr&bg_color=08090C&color=60A5FA&line=2563EB&point=FFFFFF&area=true&hide_border=true&radius=12"/>
 
