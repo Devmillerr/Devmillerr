@@ -1,83 +1,62 @@
-<!-- ENCABEZADO -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1F3A,50:2563EB,100:60A5FA&height=220&section=header&text=Miler%20Castro&fontSize=52&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Analista%20de%20Implementación%20%7C%20Desarrollador%20Backend%20%7C%20QA&descSize=18&descAlignY=56"/>
+# Miler Castro
 
-### Desarrollo e implemento software que optimiza operaciones reales
+### Analista de Implementación de Software · Backend Developer · QA Funcional
 
-<p>
-  <a href="https://portfolio-delta-fawn-41.vercel.app/#experience">
-    <img src="https://img.shields.io/badge/PORTAFOLIO-2563EB?style=for-the-badge&logo=vercel&logoColor=white"/>
-  </a>
-  <a href="https://www.linkedin.com/in/devmillerr/">
-    <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="mailto:castrojordy378@gmail.com">
-    <img src="https://img.shields.io/badge/CORREO-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-</p>
+Transformo procesos operativos en soluciones digitales funcionales, escalables y listas para producción.
 
-<img src="https://komarev.com/ghpvc/?username=Devmillerr&label=Visitas%20al%20perfil&color=2563EB&style=flat"/>
+<br>
+
+<a href="https://portfolio-delta-fawn-41.vercel.app/#experience">
+  <img src="https://img.shields.io/badge/Portafolio-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="Portafolio"/>
+</a>
+<a href="https://www.linkedin.com/in/devmillerr/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+<a href="mailto:castrojordy378@gmail.com">
+  <img src="https://img.shields.io/badge/Contacto-0B1F3A?style=for-the-badge&logo=gmail&logoColor=white" alt="Correo"/>
+</a>
 
 </div>
 
 ---
 
-## 👨‍💻 Sobre mí
+## Perfil profesional
 
-Soy **Analista de Implementación de Software y Desarrollador Backend**, ubicado en Chimbote, Perú.
+Soy técnico en **Ingeniería de Software con Inteligencia Artificial**, con más de tres años de experiencia en implementación de software, análisis funcional, QA funcional y desarrollo backend.
 
-Combino el desarrollo de software con experiencia en análisis funcional, pruebas de calidad e implementación de soluciones digitales en operaciones industriales reales.
+En **Camposol S.A.** lideré la digitalización de más de **60 procesos industriales**, participando desde el levantamiento de requerimientos y la configuración de reglas de negocio hasta las pruebas funcionales, capacitación de usuarios y puesta en producción.
 
-- 🚀 Lideré la digitalización de más de **60 procesos industriales**
-- 👥 Capacité y brindé soporte a más de **50 usuarios**
-- 🏭 Experiencia implementando soluciones digitales en **Camposol S.A.**
-- 🔍 Análisis funcional, reglas de negocio y validación de software
-- 🧪 QA funcional y pruebas en dispositivos PDA antes de producción
-- ⚙️ Desarrollo backend con NestJS, TypeScript y PostgreSQL
-- 🔐 APIs REST, autenticación JWT y arquitectura modular
-- 📚 En constante aprendizaje sobre arquitectura de software y código limpio
+También desarrollo servicios backend utilizando **NestJS, TypeScript, PostgreSQL, Prisma ORM y APIs REST**.
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/60%2B-Procesos%20digitalizados-2563EB?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/50%2B-Usuarios%20capacitados-0F766E?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/3%2B-Años%20en%20software-334155?style=for-the-badge"/>
+| 60+ | 50+ | 3+ |
+|:---:|:---:|:---:|
+| Procesos digitalizados | Usuarios capacitados | Años en software |
 
 </div>
 
 ---
 
-## 🧰 Tecnologías y herramientas
+## Tecnologías
 
-### Desarrollo Backend
+### Backend
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center" width="110">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg" width="48" height="48" alt="NestJS"/>
-<br><strong>NestJS</strong>
-</td>
-<td align="center" width="110">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="48" height="48" alt="TypeScript"/>
-<br><strong>TypeScript</strong>
-</td>
-<td align="center" width="110">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="48" height="48" alt="JavaScript"/>
-<br><strong>JavaScript</strong>
-</td>
-<td align="center" width="110">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="48" height="48" alt="Node.js"/>
-<br><strong>Node.js</strong>
-</td>
-<td align="center" width="110">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg" width="48" height="48" alt="API REST"/>
-<br><strong>API REST</strong>
-</td>
-</tr>
-</table>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg" width="48" height="48" alt="NestJS" title="NestJS"/>
+&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="48" height="48" alt="TypeScript" title="TypeScript"/>
+&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="48" height="48" alt="JavaScript" title="JavaScript"/>
+&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="48" height="48" alt="Node.js" title="Node.js"/>
+
+<br><br>
+
+`NestJS` · `TypeScript` · `JavaScript` · `Node.js` · `APIs REST` · `JWT`
 
 </div>
 
@@ -85,49 +64,33 @@ Combino el desarrollo de software con experiencia en análisis funcional, prueba
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center" width="130">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="48" height="48" alt="PostgreSQL"/>
-<br><strong>PostgreSQL</strong>
-</td>
-<td align="center" width="130">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg" width="48" height="48" alt="SQL Server"/>
-<br><strong>SQL Server</strong>
-</td>
-<td align="center" width="130">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg" width="48" height="48" alt="Prisma ORM"/>
-<br><strong>Prisma ORM</strong>
-</td>
-</tr>
-</table>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="48" height="48" alt="PostgreSQL" title="PostgreSQL"/>
+&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg" width="48" height="48" alt="SQL Server" title="SQL Server"/>
+&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg" width="48" height="48" alt="Prisma ORM" title="Prisma ORM"/>
+
+<br><br>
+
+`PostgreSQL` · `SQL Server` · `Prisma ORM`
 
 </div>
 
-### Herramientas de desarrollo
+### Herramientas
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center" width="110">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="48" height="48" alt="Git"/>
-<br><strong>Git</strong>
-</td>
-<td align="center" width="110">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="48" height="48" alt="GitHub"/>
-<br><strong>GitHub</strong>
-</td>
-<td align="center" width="110">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" width="48" height="48" alt="Postman"/>
-<br><strong>Postman</strong>
-</td>
-<td align="center" width="110">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="48" height="48" alt="Visual Studio Code"/>
-<br><strong>VS Code</strong>
-</td>
-</tr>
-</table>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="48" height="48" alt="Git" title="Git"/>
+&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="48" height="48" alt="GitHub" title="GitHub"/>
+&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" width="48" height="48" alt="Postman" title="Postman"/>
+&nbsp;&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="48" height="48" alt="Visual Studio Code" title="Visual Studio Code"/>
+
+<br><br>
+
+`Git` · `GitHub` · `Postman` · `Visual Studio Code` · `Power BI`
 
 </div>
 
@@ -135,78 +98,100 @@ Combino el desarrollo de software con experiencia en análisis funcional, prueba
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Análisis_funcional-0B1F3A?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Reglas_de_negocio-1E3A5F?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/QA_funcional-2563EB?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Pruebas_de_API-0F766E?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Implementación_de_software-334155?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Soporte_a_usuarios-475569?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Análisis_funcional-0B1F3A?style=flat-square"/>
+<img src="https://img.shields.io/badge/Reglas_de_negocio-1E3A5F?style=flat-square"/>
+<img src="https://img.shields.io/badge/QA_funcional-2563EB?style=flat-square"/>
+<img src="https://img.shields.io/badge/Pruebas_en_PDA-0F766E?style=flat-square"/>
+<img src="https://img.shields.io/badge/Despliegues-334155?style=flat-square"/>
+<img src="https://img.shields.io/badge/Soporte_a_usuarios-475569?style=flat-square"/>
 
 </div>
 
 ---
 
-## 🚀 Proyectos destacados
+## Experiencia destacada
 
-<div align="center">
+### Digitalización de procesos industriales — Camposol S.A.
+
+Implementación integral de formularios y flujos digitales mediante **DigiProy** para operaciones industriales.
+
+Mi participación comprende el ciclo completo de implementación:
+
+- Levantamiento y análisis de requerimientos operativos.
+- Transformación de requerimientos en reglas de negocio.
+- Configuración de validaciones y formularios digitales.
+- Ejecución de pruebas funcionales en dispositivos PDA.
+- Coordinación de despliegues en producción.
+- Capacitación y soporte a usuarios.
+- Seguimiento autónomo de avances y mejoras.
+
+#### Resultados
+
+- Más de **60 procesos industriales digitalizados**.
+- Más de **50 usuarios capacitados**.
+- Participación en análisis, implementación, QA y producción.
+- Soluciones aplicadas en una operación industrial real.
+
+---
+
+## Proyectos destacados
+
+### API de Finanzas
+
+API backend modular para gestionar usuarios, cuentas, transacciones, autenticación y generación de reportes PDF.
+
+**Tecnologías**
+
+`NestJS` · `TypeScript` · `PostgreSQL` · `Prisma ORM` · `JWT`
 
 <a href="https://github.com/Devmillerr/nestjs-finance-api">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=Devmillerr&repo=nestjs-finance-api&theme=tokyonight&hide_border=true"/>
+  <img src="https://img.shields.io/badge/Ver_repositorio-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositorio API de Finanzas"/>
 </a>
-
-<a href="https://github.com/Devmillerr/mega-red">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=Devmillerr&repo=mega-red&theme=tokyonight&hide_border=true"/>
-</a>
-
-</div>
-
-### 💰 API de Finanzas
-
-API backend para gestionar usuarios, cuentas, transacciones, autenticación y generación de reportes PDF.
-
-`NestJS` `TypeScript` `PostgreSQL` `Prisma ORM` `JWT`
-
-➡️ [Ver repositorio](https://github.com/Devmillerr/nestjs-finance-api)
-
-### ⚡ Mega Red
-
-Sistema backend para gestionar clientes, servicios y pagos con control de acceso basado en roles.
-
-`NestJS` `TypeScript` `PostgreSQL` `Prisma ORM` `RBAC`
-
-➡️ [Ver repositorio](https://github.com/Devmillerr/mega-red)
-
----
-
-## 📊 Actividad en GitHub
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Devmillerr&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true"/>
-<img width="46%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Devmillerr&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
-
-## 🤝 Contacto
-
-<div align="center">
-
-Estoy abierto a oportunidades en **implementación de software, desarrollo backend y QA funcional**.
 
 <br>
 
+### Mega Red
+
+Sistema backend para administrar clientes, servicios y pagos con control de acceso basado en roles.
+
+**Tecnologías**
+
+`NestJS` · `TypeScript` · `PostgreSQL` · `Prisma ORM` · `RBAC`
+
+<a href="https://github.com/Devmillerr/mega-red">
+  <img src="https://img.shields.io/badge/Ver_repositorio-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositorio Mega Red"/>
+</a>
+
+---
+
+## Estadísticas de GitHub
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Devmillerr&show_icons=true&theme=github_dark&hide_border=true&locale=es" alt="Estadísticas de GitHub"/>
+
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Devmillerr&layout=compact&theme=github_dark&hide_border=true&locale=es" alt="Lenguajes más utilizados"/>
+
+</div>
+
+---
+
+## Contacto
+
+<div align="center">
+
+Actualmente estoy abierto a oportunidades en **implementación de software, desarrollo backend y QA funcional**.
+
+<br><br>
+
 <a href="https://portfolio-delta-fawn-41.vercel.app/#experience">
-  <img src="https://img.shields.io/badge/Explorar_mi_portafolio-2563EB?style=for-the-badge&logo=vercel&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Visitar_portafolio-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="Portafolio"/>
 </a>
-
 <a href="https://www.linkedin.com/in/devmillerr/">
-  <img src="https://img.shields.io/badge/Conectar_en_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Conectar_en_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
-
 <a href="mailto:castrojordy378@gmail.com">
-  <img src="https://img.shields.io/badge/Enviar_un_correo-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Enviar_correo-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Correo"/>
 </a>
 
 <br><br>
@@ -214,5 +199,3 @@ Estoy abierto a oportunidades en **implementación de software, desarrollo backe
 📍 Chimbote, Perú
 
 </div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:60A5FA,50:2563EB,100:0B1F3A&height=120&section=footer"/>
