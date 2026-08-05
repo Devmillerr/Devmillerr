@@ -202,9 +202,7 @@ Backend para administrar:
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Devmillerr&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&locale=es"/>
 
-<img width="46%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Devmillerr&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&locale=es"/>
 
 <br><br>
 
