@@ -1,201 +1,238 @@
+<!-- ENCABEZADO ANIMADO -->
 <div align="center">
 
-# Miler Castro
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:08090C,50:2563EB,100:60A5FA&height=220&section=header&text=Miler%20Castro&fontSize=52&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35"/>
 
-### Analista de Implementación de Software · Backend Developer · QA Funcional
-
-Transformo procesos operativos en soluciones digitales funcionales, escalables y listas para producción.
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=1200&color=60A5FA&center=true&vCenter=true&width=850&lines=Analista+de+Implementaci%C3%B3n+de+Software;Backend+Developer+con+NestJS+y+TypeScript;QA+Funcional+y+An%C3%A1lisis+de+Procesos;Construyendo+soluciones+para+operaciones+reales" alt="Presentación animada"/>
+</a>
 
 <br>
 
 <a href="https://portfolio-delta-fawn-41.vercel.app/#experience">
-  <img src="https://img.shields.io/badge/Portafolio-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="Portafolio"/>
+  <img src="https://img.shields.io/badge/PORTAFOLIO-2563EB?style=for-the-badge&logo=vercel&logoColor=white"/>
 </a>
 <a href="https://www.linkedin.com/in/devmillerr/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 <a href="mailto:castrojordy378@gmail.com">
-  <img src="https://img.shields.io/badge/Contacto-0B1F3A?style=for-the-badge&logo=gmail&logoColor=white" alt="Correo"/>
+  <img src="https://img.shields.io/badge/CONTACTO-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
 </div>
 
 ---
 
-## Perfil profesional
-
-Soy técnico en **Ingeniería de Software con Inteligencia Artificial**, con más de tres años de experiencia en implementación de software, análisis funcional, QA funcional y desarrollo backend.
-
-En **Camposol S.A.** lideré la digitalización de más de **60 procesos industriales**, participando desde el levantamiento de requerimientos y la configuración de reglas de negocio hasta las pruebas funcionales, capacitación de usuarios y puesta en producción.
-
-También desarrollo servicios backend utilizando **NestJS, TypeScript, PostgreSQL, Prisma ORM y APIs REST**.
+## 👨‍💻 Perfil
 
 <div align="center">
 
-| 60+ | 50+ | 3+ |
-|:---:|:---:|:---:|
-| Procesos digitalizados | Usuarios capacitados | Años en software |
+**Implementación de software, QA funcional y desarrollo backend aplicados a operaciones reales.**
+
+Convierto requerimientos operativos en soluciones digitales funcionales, validadas y listas para producción.
+
+<br>
+
+<img src="https://img.shields.io/badge/60%2B-PROCESOS_DIGITALIZADOS-2563EB?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/50%2B-USUARIOS_CAPACITADOS-0F766E?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/3%2B-AÑOS_EN_SOFTWARE-334155?style=for-the-badge"/>
 
 </div>
 
 ---
 
-## Tecnologías
+## 💼 Experiencia
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🏭 Camposol S.A.
+
+**Implementación de Software y QA Funcional**
+
+`Sep. 2024 – Actualidad`
+
+<br>
+
+<img src="https://img.shields.io/badge/DigiProy-2563EB?style=flat-square"/>
+<img src="https://img.shields.io/badge/QA_funcional-0F766E?style=flat-square"/>
+<img src="https://img.shields.io/badge/Producción-334155?style=flat-square"/>
+
+<br><br>
+
+- Digitalización de **60+ procesos**
+- Análisis de requerimientos
+- Reglas de negocio y validaciones
+- Pruebas funcionales en PDA
+- Capacitación de **50+ usuarios**
+- Despliegue y soporte operativo
+
+</td>
+<td width="50%" valign="top">
+
+### 💻 I.E. Inmaculada de la Merced
+
+**Backend Developer – Prácticas**
+
+`Jul. 2022 – Ene. 2024`
+
+<br>
+
+<img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+
+<br><br>
+
+- Desarrollo de APIs REST
+- Arquitectura modular
+- Autenticación con JWT
+- Persistencia con Prisma ORM
+- Integración con PostgreSQL
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🧰 Stack tecnológico
+
+<div align="center">
 
 ### Backend
 
-<div align="center">
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg" width="48" height="48" alt="NestJS" title="NestJS"/>
-&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="48" height="48" alt="TypeScript" title="TypeScript"/>
-&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="48" height="48" alt="JavaScript" title="JavaScript"/>
-&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="48" height="48" alt="Node.js" title="Node.js"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg" width="52" height="52" title="NestJS"/>
+&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="52" height="52" title="TypeScript"/>
+&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="52" height="52" title="JavaScript"/>
+&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="52" height="52" title="Node.js"/>
 
 <br><br>
 
-`NestJS` · `TypeScript` · `JavaScript` · `Node.js` · `APIs REST` · `JWT`
+### Bases de datos
 
-</div>
-
-### Bases de datos y ORM
-
-<div align="center">
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="48" height="48" alt="PostgreSQL" title="PostgreSQL"/>
-&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg" width="48" height="48" alt="SQL Server" title="SQL Server"/>
-&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg" width="48" height="48" alt="Prisma ORM" title="Prisma ORM"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="52" height="52" title="PostgreSQL"/>
+&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg" width="52" height="52" title="SQL Server"/>
+&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg" width="52" height="52" title="Prisma ORM"/>
 
 <br><br>
-
-`PostgreSQL` · `SQL Server` · `Prisma ORM`
-
-</div>
 
 ### Herramientas
 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="52" height="52" title="Git"/>
+&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="52" height="52" title="GitHub"/>
+&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" width="52" height="52" title="Postman"/>
+&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="52" height="52" title="Visual Studio Code"/>
+
+</div>
+
+---
+
+## 🚀 Proyectos destacados
+
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="48" height="48" alt="Git" title="Git"/>
-&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="48" height="48" alt="GitHub" title="GitHub"/>
-&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" width="48" height="48" alt="Postman" title="Postman"/>
-&nbsp;&nbsp;&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="48" height="48" alt="Visual Studio Code" title="Visual Studio Code"/>
+<a href="https://github.com/Devmillerr/nestjs-finance-api">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=Devmillerr&repo=nestjs-finance-api&theme=tokyonight&hide_border=true&border_radius=12"/>
+</a>
+
+<a href="https://github.com/Devmillerr/mega-red">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=Devmillerr&repo=mega-red&theme=tokyonight&hide_border=true&border_radius=12"/>
+</a>
+
+</div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 💰 API de Finanzas
+
+Backend para administrar:
+
+- Usuarios y autenticación
+- Cuentas y transacciones
+- Reportes PDF
+- Seguridad con JWT
+
+`NestJS` `TypeScript` `Prisma` `PostgreSQL`
+
+<div align="center">
+
+[![Repositorio](https://img.shields.io/badge/ABRIR_PROYECTO-2563EB?style=for-the-badge&logo=github)](https://github.com/Devmillerr/nestjs-finance-api)
+
+</div>
+
+</td>
+<td width="50%" valign="top">
+
+### ⚡ Mega Red
+
+Backend para administrar:
+
+- Clientes y servicios
+- Pagos y vencimientos
+- Acceso basado en roles
+- Procesos automatizados
+
+`NestJS` `TypeScript` `Prisma` `PostgreSQL`
+
+<div align="center">
+
+[![Repositorio](https://img.shields.io/badge/ABRIR_PROYECTO-2563EB?style=for-the-badge&logo=github)](https://github.com/Devmillerr/mega-red)
+
+</div>
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📊 Actividad
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Devmillerr&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&locale=es"/>
+
+<img width="46%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Devmillerr&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&locale=es"/>
 
 <br><br>
 
-`Git` · `GitHub` · `Postman` · `Visual Studio Code` · `Power BI`
+<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=Devmillerr&bg_color=08090C&color=60A5FA&line=2563EB&point=FFFFFF&area=true&hide_border=true&radius=12"/>
 
 </div>
 
-### Implementación y QA
+---
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Análisis_funcional-0B1F3A?style=flat-square"/>
-<img src="https://img.shields.io/badge/Reglas_de_negocio-1E3A5F?style=flat-square"/>
-<img src="https://img.shields.io/badge/QA_funcional-2563EB?style=flat-square"/>
-<img src="https://img.shields.io/badge/Pruebas_en_PDA-0F766E?style=flat-square"/>
-<img src="https://img.shields.io/badge/Despliegues-334155?style=flat-square"/>
-<img src="https://img.shields.io/badge/Soporte_a_usuarios-475569?style=flat-square"/>
+## 🤝 ¿Trabajamos juntos?
 
-</div>
-
----
-
-## Experiencia destacada
-
-### Digitalización de procesos industriales — Camposol S.A.
-
-Implementación integral de formularios y flujos digitales mediante **DigiProy** para operaciones industriales.
-
-Mi participación comprende el ciclo completo de implementación:
-
-- Levantamiento y análisis de requerimientos operativos.
-- Transformación de requerimientos en reglas de negocio.
-- Configuración de validaciones y formularios digitales.
-- Ejecución de pruebas funcionales en dispositivos PDA.
-- Coordinación de despliegues en producción.
-- Capacitación y soporte a usuarios.
-- Seguimiento autónomo de avances y mejoras.
-
-#### Resultados
-
-- Más de **60 procesos industriales digitalizados**.
-- Más de **50 usuarios capacitados**.
-- Participación en análisis, implementación, QA y producción.
-- Soluciones aplicadas en una operación industrial real.
-
----
-
-## Proyectos destacados
-
-### API de Finanzas
-
-API backend modular para gestionar usuarios, cuentas, transacciones, autenticación y generación de reportes PDF.
-
-**Tecnologías**
-
-`NestJS` · `TypeScript` · `PostgreSQL` · `Prisma ORM` · `JWT`
-
-<a href="https://github.com/Devmillerr/nestjs-finance-api">
-  <img src="https://img.shields.io/badge/Ver_repositorio-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositorio API de Finanzas"/>
-</a>
+Estoy abierto a oportunidades en **implementación de software, desarrollo backend y QA funcional**.
 
 <br>
 
-### Mega Red
-
-Sistema backend para administrar clientes, servicios y pagos con control de acceso basado en roles.
-
-**Tecnologías**
-
-`NestJS` · `TypeScript` · `PostgreSQL` · `Prisma ORM` · `RBAC`
-
-<a href="https://github.com/Devmillerr/mega-red">
-  <img src="https://img.shields.io/badge/Ver_repositorio-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositorio Mega Red"/>
-</a>
-
----
-
-## Estadísticas de GitHub
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Devmillerr&show_icons=true&theme=github_dark&hide_border=true&locale=es" alt="Estadísticas de GitHub"/>
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Devmillerr&layout=compact&theme=github_dark&hide_border=true&locale=es" alt="Lenguajes más utilizados"/>
-
-</div>
-
----
-
-## Contacto
-
-<div align="center">
-
-Actualmente estoy abierto a oportunidades en **implementación de software, desarrollo backend y QA funcional**.
-
-<br><br>
-
 <a href="https://portfolio-delta-fawn-41.vercel.app/#experience">
-  <img src="https://img.shields.io/badge/Visitar_portafolio-2563EB?style=for-the-badge&logo=vercel&logoColor=white" alt="Portafolio"/>
+  <img src="https://img.shields.io/badge/EXPLORAR_PORTAFOLIO-2563EB?style=for-the-badge&logo=vercel&logoColor=white"/>
 </a>
 <a href="https://www.linkedin.com/in/devmillerr/">
-  <img src="https://img.shields.io/badge/Conectar_en_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-<a href="mailto:castrojordy378@gmail.com">
-  <img src="https://img.shields.io/badge/Enviar_correo-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Correo"/>
+  <img src="https://img.shields.io/badge/CONECTAR_EN_LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
 <br><br>
 
 📍 Chimbote, Perú
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:60A5FA,50:2563EB,100:08090C&height=110&section=footer"/>
 
 </div>
