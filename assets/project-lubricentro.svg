@@ -49,12 +49,12 @@
 
   <path d="M0 44H1200" stroke="#FFFFFF" stroke-opacity=".06"/>
   <circle cx="24" cy="22" r="5" fill="#3A3350"/><circle cx="42" cy="22" r="5" fill="#3A3350"/><circle cx="60" cy="22" r="5" fill="#A35CFF"/>
-  <text x="84" y="26" fill="#787090" font-family="Consolas, Menlo, monospace" font-size="12">~/casos/lubricentro-lavado</text>
+  <text x="84" y="26" fill="#787090" font-family="Consolas, Menlo, monospace" font-size="12"></text>
   <rect x="1012" y="11" width="166" height="22" rx="11" fill="#A35CFF" fill-opacity=".08" stroke="#A35CFF" stroke-opacity=".35"/>
-  <text x="1095" y="26" text-anchor="middle" fill="#A35CFF" font-family="Consolas, Menlo, monospace" font-size="10.5" letter-spacing="1.5">CASE / OPERATIONS</text>
+  <text x="1095" y="26" text-anchor="middle" fill="#A35CFF" font-family="Consolas, Menlo, monospace" font-size="10.5" letter-spacing="1.5">CASE / OPERATION</text>
 
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
-    <text x="40" y="90" fill="#A35CFF" font-family="Consolas, Menlo, monospace" font-size="12" letter-spacing="2">01 — CASO PRÁCTICO · PWA</text>
+    <text x="40" y="90" fill="#A35CFF" font-family="Consolas, Menlo, monospace" font-size="12" letter-spacing="2"></text>
     <text x="38" y="132" fill="#F5F3FA" font-size="34" font-weight="800" letter-spacing="-1">Gestión para</text>
     <text x="38" y="170" fill="#F5F3FA" font-size="34" font-weight="800" letter-spacing="-1">lubricentro y lavado</text>
     <text x="40" y="202" fill="#A69FBB" font-size="15">Operaciones relacionadas en un mismo sistema.</text>
