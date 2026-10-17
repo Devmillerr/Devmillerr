@@ -11,63 +11,63 @@
   </style>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#15181A"/>
-      <stop offset=".5" stop-color="#1A1D20"/>
-      <stop offset="1" stop-color="#15181A"/>
+      <stop offset="0" stop-color="#120F1F"/>
+      <stop offset=".5" stop-color="#151127"/>
+      <stop offset="1" stop-color="#120F1F"/>
     </linearGradient>
     <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#C7EF72"/>
-      <stop offset="1" stop-color="#7FD8C0"/>
+      <stop offset="0" stop-color="#A35CFF"/>
+      <stop offset="1" stop-color="#D18BFF"/>
     </linearGradient>
     <radialGradient id="glow" cx=".5" cy="0" r=".9">
-      <stop offset="0" stop-color="#C7EF72" stop-opacity=".09"/>
-      <stop offset="1" stop-color="#C7EF72" stop-opacity="0"/>
+      <stop offset="0" stop-color="#A35CFF" stop-opacity=".09"/>
+      <stop offset="1" stop-color="#A35CFF" stop-opacity="0"/>
     </radialGradient>
     <g id="node">
-      <circle r="27" fill="#101213" stroke="#3A3F41" stroke-width="1.5"/>
-      <circle r="20" fill="#C7EF72" fill-opacity=".1" stroke="#C7EF72" stroke-opacity=".55"/>
+      <circle r="27" fill="#0F0C18" stroke="#3A3350" stroke-width="1.5"/>
+      <circle r="20" fill="#A35CFF" fill-opacity=".1" stroke="#A35CFF" stroke-opacity=".55"/>
     </g>
   </defs>
   <rect width="1200" height="190" rx="12" fill="url(#bg)"/>
   <rect width="1200" height="190" rx="12" fill="url(#glow)"/>
   <rect x=".5" y=".5" width="1199" height="189" rx="12" fill="none" stroke="#FFFFFF" stroke-opacity=".07"/>
 
-  <path d="M150 62H1050" stroke="#2A2E30" stroke-width="2"/>
+  <path d="M150 62H1050" stroke="#29243A" stroke-width="2"/>
   <path d="M150 62H1050" stroke="url(#line)" stroke-width="2" class="flow"/>
 
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif" text-anchor="middle">
     <g transform="translate(150 62)">
-      <circle r="27" fill="none" stroke="#C7EF72" class="ring"/>
+      <circle r="27" fill="none" stroke="#A35CFF" class="ring"/>
       <use href="#node"/>
-      <g fill="none" stroke="#C7EF72" stroke-width="2" stroke-linecap="round"><circle cx="-2" cy="-2" r="7"/><path d="M3 3l6 6"/></g>
-      <text y="62" fill="#5A6062" font-family="Consolas, Menlo, monospace" font-size="11" letter-spacing="2">PASO 01</text>
-      <text y="86" fill="#F2F2EE" font-size="18" font-weight="700">Entender el proceso</text>
-      <text y="108" fill="#9EA39F" font-size="13">Cómo opera hoy el negocio.</text>
+      <g fill="none" stroke="#A35CFF" stroke-width="2" stroke-linecap="round"><circle cx="-2" cy="-2" r="7"/><path d="M3 3l6 6"/></g>
+      <text y="62" fill="#635B7A" font-family="Consolas, Menlo, monospace" font-size="11" letter-spacing="2">PASO 01</text>
+      <text y="86" fill="#F5F3FA" font-size="18" font-weight="700">Entender el proceso</text>
+      <text y="108" fill="#A69FBB" font-size="13">Cómo opera hoy el negocio.</text>
     </g>
     <g transform="translate(450 62)">
-      <circle r="27" fill="none" stroke="#C7EF72" class="ring r2"/>
+      <circle r="27" fill="none" stroke="#A35CFF" class="ring r2"/>
       <use href="#node"/>
-      <g fill="none" stroke="#C7EF72" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="-9" y="-9" width="18" height="18" rx="3"/><path d="M-4 -2h8M-4 3h5"/></g>
-      <text y="62" fill="#5A6062" font-family="Consolas, Menlo, monospace" font-size="11" letter-spacing="2">PASO 02</text>
-      <text y="86" fill="#F2F2EE" font-size="18" font-weight="700">Definir la solución</text>
-      <text y="108" fill="#9EA39F" font-size="13">Alcance que tenga sentido.</text>
+      <g fill="none" stroke="#A35CFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="-9" y="-9" width="18" height="18" rx="3"/><path d="M-4 -2h8M-4 3h5"/></g>
+      <text y="62" fill="#635B7A" font-family="Consolas, Menlo, monospace" font-size="11" letter-spacing="2">PASO 02</text>
+      <text y="86" fill="#F5F3FA" font-size="18" font-weight="700">Definir la solución</text>
+      <text y="108" fill="#A69FBB" font-size="13">Alcance que tenga sentido.</text>
     </g>
     <g transform="translate(750 62)">
-      <circle r="27" fill="none" stroke="#C7EF72" class="ring r3"/>
+      <circle r="27" fill="none" stroke="#A35CFF" class="ring r3"/>
       <use href="#node"/>
-      <g fill="none" stroke="#C7EF72" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-4 -7l-7 7 7 7M4 -7l7 7-7 7"/></g>
-      <text y="62" fill="#5A6062" font-family="Consolas, Menlo, monospace" font-size="11" letter-spacing="2">PASO 03</text>
-      <text y="86" fill="#F2F2EE" font-size="18" font-weight="700">Construir e integrar</text>
-      <text y="108" fill="#9EA39F" font-size="13">Entregas pequeñas y verificables.</text>
+      <g fill="none" stroke="#A35CFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M-4 -7l-7 7 7 7M4 -7l7 7-7 7"/></g>
+      <text y="62" fill="#635B7A" font-family="Consolas, Menlo, monospace" font-size="11" letter-spacing="2">PASO 03</text>
+      <text y="86" fill="#F5F3FA" font-size="18" font-weight="700">Construir e integrar</text>
+      <text y="108" fill="#A69FBB" font-size="13">Entregas pequeñas y verificables.</text>
     </g>
     <g transform="translate(1050 62)">
-      <circle r="27" fill="none" stroke="#C7EF72" class="ring r4"/>
-      <circle r="27" fill="#101213" stroke="#3A3F41" stroke-width="1.5"/>
-      <circle r="20" fill="#C7EF72"/>
-      <path d="M-8 4l5-5 4 3 7-7" fill="none" stroke="#101213" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
-      <text y="62" fill="#5A6062" font-family="Consolas, Menlo, monospace" font-size="11" letter-spacing="2">PASO 04</text>
-      <text y="86" fill="#F2F2EE" font-size="18" font-weight="700">Medir y evolucionar</text>
-      <text y="108" fill="#9EA39F" font-size="13">Mejora continua del sistema.</text>
+      <circle r="27" fill="none" stroke="#A35CFF" class="ring r4"/>
+      <circle r="27" fill="#0F0C18" stroke="#3A3350" stroke-width="1.5"/>
+      <circle r="20" fill="#A35CFF"/>
+      <path d="M-8 4l5-5 4 3 7-7" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text y="62" fill="#635B7A" font-family="Consolas, Menlo, monospace" font-size="11" letter-spacing="2">PASO 04</text>
+      <text y="86" fill="#F5F3FA" font-size="18" font-weight="700">Medir y evolucionar</text>
+      <text y="108" fill="#A69FBB" font-size="13">Mejora continua del sistema.</text>
     </g>
   </g>
 </svg>

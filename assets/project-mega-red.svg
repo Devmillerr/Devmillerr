@@ -14,25 +14,25 @@
   </style>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1A1D20"/>
-      <stop offset="1" stop-color="#0D0F10"/>
+      <stop offset="0" stop-color="#151127"/>
+      <stop offset="1" stop-color="#08070E"/>
     </linearGradient>
     <radialGradient id="glow" cx=".72" cy=".35" r=".55">
-      <stop offset="0" stop-color="#7FD8C0" stop-opacity=".11"/>
-      <stop offset="1" stop-color="#7FD8C0" stop-opacity="0"/>
+      <stop offset="0" stop-color="#D18BFF" stop-opacity=".11"/>
+      <stop offset="1" stop-color="#D18BFF" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="node" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#23272A"/>
-      <stop offset="1" stop-color="#17191B"/>
+      <stop offset="0" stop-color="#1F1A33"/>
+      <stop offset="1" stop-color="#15121F"/>
     </linearGradient>
     <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#C7EF72" stop-opacity=".6"/>
-      <stop offset=".4" stop-color="#3A3F41"/>
-      <stop offset="1" stop-color="#2A2E30"/>
+      <stop offset="0" stop-color="#A35CFF" stop-opacity=".6"/>
+      <stop offset=".4" stop-color="#3A3350"/>
+      <stop offset="1" stop-color="#29243A"/>
     </linearGradient>
     <linearGradient id="scanGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#C7EF72" stop-opacity="0"/>
-      <stop offset="1" stop-color="#C7EF72" stop-opacity=".35"/>
+      <stop offset="0" stop-color="#A35CFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#A35CFF" stop-opacity=".35"/>
     </linearGradient>
     <filter id="shadow" x="-15%" y="-15%" width="130%" height="150%">
       <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000" flood-opacity=".5"/>
@@ -49,89 +49,89 @@
   <rect x=".5" y=".5" width="1199" height="329" rx="14" fill="none" stroke="#FFFFFF" stroke-opacity=".08"/>
 
   <path d="M0 44H1200" stroke="#FFFFFF" stroke-opacity=".06"/>
-  <circle cx="24" cy="22" r="5" fill="#3A3F41"/><circle cx="42" cy="22" r="5" fill="#3A3F41"/><circle cx="60" cy="22" r="5" fill="#C7EF72"/>
-  <text x="84" y="26" fill="#6E7470" font-family="Consolas, Menlo, monospace" font-size="12">~/proyectos/mega-red</text>
-  <rect x="1000" y="11" width="178" height="22" rx="11" fill="#C7EF72" fill-opacity=".08" stroke="#C7EF72" stroke-opacity=".35"/>
-  <text x="1089" y="26" text-anchor="middle" fill="#C7EF72" font-family="Consolas, Menlo, monospace" font-size="10.5" letter-spacing="1.5">PROJECT / MANAGEMENT</text>
+  <circle cx="24" cy="22" r="5" fill="#3A3350"/><circle cx="42" cy="22" r="5" fill="#3A3350"/><circle cx="60" cy="22" r="5" fill="#A35CFF"/>
+  <text x="84" y="26" fill="#787090" font-family="Consolas, Menlo, monospace" font-size="12">~/proyectos/mega-red</text>
+  <rect x="1000" y="11" width="178" height="22" rx="11" fill="#A35CFF" fill-opacity=".08" stroke="#A35CFF" stroke-opacity=".35"/>
+  <text x="1089" y="26" text-anchor="middle" fill="#A35CFF" font-family="Consolas, Menlo, monospace" font-size="10.5" letter-spacing="1.5">PROJECT / MANAGEMENT</text>
 
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
-    <text x="40" y="90" fill="#C7EF72" font-family="Consolas, Menlo, monospace" font-size="12" letter-spacing="2">03 — PROVEEDOR DE INTERNET</text>
-    <text x="38" y="136" fill="#F2F2EE" font-size="40" font-weight="800" letter-spacing="-1">Mega Red</text>
-    <text x="40" y="168" fill="#9EA39F" font-size="15">Clientes, pagos con vencimiento,</text>
-    <text x="40" y="189" fill="#9EA39F" font-size="15">comprobantes y notificaciones.</text>
+    <text x="40" y="90" fill="#A35CFF" font-family="Consolas, Menlo, monospace" font-size="12" letter-spacing="2">03 — PROVEEDOR DE INTERNET</text>
+    <text x="38" y="136" fill="#F5F3FA" font-size="40" font-weight="800" letter-spacing="-1">Mega Red</text>
+    <text x="40" y="168" fill="#A69FBB" font-size="15">Clientes, pagos con vencimiento,</text>
+    <text x="40" y="189" fill="#A69FBB" font-size="15">comprobantes y notificaciones.</text>
     <g font-family="Consolas, Menlo, monospace" font-size="12" text-anchor="middle">
-      <rect x="40" y="216" width="66" height="26" rx="13" fill="#202326" stroke="#3A3F41"/><text x="73" y="233" fill="#D6DAD5">NestJS</text>
-      <rect x="114" y="216" width="94" height="26" rx="13" fill="#202326" stroke="#3A3F41"/><text x="161" y="233" fill="#D6DAD5">TypeScript</text>
-      <rect x="216" y="216" width="66" height="26" rx="13" fill="#202326" stroke="#3A3F41"/><text x="249" y="233" fill="#D6DAD5">Prisma</text>
-      <rect x="290" y="216" width="94" height="26" rx="13" fill="#202326" stroke="#3A3F41"/><text x="337" y="233" fill="#D6DAD5">PostgreSQL</text>
+      <rect x="40" y="216" width="66" height="26" rx="13" fill="#1D1929" stroke="#3A3350"/><text x="73" y="233" fill="#DCD7E8">NestJS</text>
+      <rect x="114" y="216" width="94" height="26" rx="13" fill="#1D1929" stroke="#3A3350"/><text x="161" y="233" fill="#DCD7E8">TypeScript</text>
+      <rect x="216" y="216" width="66" height="26" rx="13" fill="#1D1929" stroke="#3A3350"/><text x="249" y="233" fill="#DCD7E8">Prisma</text>
+      <rect x="290" y="216" width="94" height="26" rx="13" fill="#1D1929" stroke="#3A3350"/><text x="337" y="233" fill="#DCD7E8">PostgreSQL</text>
     </g>
-    <text x="40" y="306" fill="#6E7470" font-family="Consolas, Menlo, monospace" font-size="11" letter-spacing="1.5">● REPOSITORIO + DEMO</text>
+    <text x="40" y="306" fill="#787090" font-family="Consolas, Menlo, monospace" font-size="11" letter-spacing="1.5">● REPOSITORIO + DEMO</text>
   </g>
 
   <!-- flow nodes -->
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
-    <path d="M620 128H650M800 128H830M980 128H1010" stroke="#2A2E30" stroke-width="2"/>
-    <path d="M620 128H650M800 128H830M980 128H1010" stroke="#C7EF72" stroke-width="2" class="flow"/>
+    <path d="M620 128H650M800 128H830M980 128H1010" stroke="#29243A" stroke-width="2"/>
+    <path d="M620 128H650M800 128H830M980 128H1010" stroke="#A35CFF" stroke-width="2" class="flow"/>
 
     <g transform="translate(470 72)">
       <rect width="150" height="112" rx="12" fill="url(#node)" stroke="url(#edge)" filter="url(#shadow)"/>
-      <rect x="14" y="14" width="32" height="32" rx="8" fill="#C7EF72" fill-opacity=".1" stroke="#C7EF72" stroke-opacity=".4"/>
-      <g fill="none" stroke="#C7EF72" stroke-width="2" stroke-linecap="round"><circle cx="30" cy="26" r="4.5"/><path d="M22 39c1.5-4 4.5-6 8-6s6.5 2 8 6"/></g>
-      <text x="136" y="28" text-anchor="end" fill="#5A6062" font-family="Consolas, Menlo, monospace" font-size="10.5">01</text>
-      <text x="14" y="76" fill="#F2F2EE" font-size="17" font-weight="700">Clientes</text>
-      <text x="14" y="96" fill="#9EA39F" font-size="12">Planes y servicio</text>
+      <rect x="14" y="14" width="32" height="32" rx="8" fill="#A35CFF" fill-opacity=".1" stroke="#A35CFF" stroke-opacity=".4"/>
+      <g fill="none" stroke="#A35CFF" stroke-width="2" stroke-linecap="round"><circle cx="30" cy="26" r="4.5"/><path d="M22 39c1.5-4 4.5-6 8-6s6.5 2 8 6"/></g>
+      <text x="136" y="28" text-anchor="end" fill="#635B7A" font-family="Consolas, Menlo, monospace" font-size="10.5">01</text>
+      <text x="14" y="76" fill="#F5F3FA" font-size="17" font-weight="700">Clientes</text>
+      <text x="14" y="96" fill="#A69FBB" font-size="12">Planes y servicio</text>
     </g>
     <g transform="translate(650 72)">
       <rect width="150" height="112" rx="12" fill="url(#node)" stroke="url(#edge)" filter="url(#shadow)"/>
-      <rect x="14" y="14" width="32" height="32" rx="8" fill="#C7EF72" fill-opacity=".1" stroke="#C7EF72" stroke-opacity=".4"/>
-      <g fill="none" stroke="#C7EF72" stroke-width="2" stroke-linecap="round"><rect x="20" y="22" width="20" height="14" rx="2.5"/><path d="M20 27h20M24 32h5"/></g>
-      <text x="136" y="28" text-anchor="end" fill="#5A6062" font-family="Consolas, Menlo, monospace" font-size="10.5">02</text>
-      <text x="14" y="76" fill="#F2F2EE" font-size="17" font-weight="700">Pagos</text>
-      <text x="14" y="96" fill="#9EA39F" font-size="12">Con vencimiento</text>
+      <rect x="14" y="14" width="32" height="32" rx="8" fill="#A35CFF" fill-opacity=".1" stroke="#A35CFF" stroke-opacity=".4"/>
+      <g fill="none" stroke="#A35CFF" stroke-width="2" stroke-linecap="round"><rect x="20" y="22" width="20" height="14" rx="2.5"/><path d="M20 27h20M24 32h5"/></g>
+      <text x="136" y="28" text-anchor="end" fill="#635B7A" font-family="Consolas, Menlo, monospace" font-size="10.5">02</text>
+      <text x="14" y="76" fill="#F5F3FA" font-size="17" font-weight="700">Pagos</text>
+      <text x="14" y="96" fill="#A69FBB" font-size="12">Con vencimiento</text>
     </g>
     <g transform="translate(830 72)">
       <rect width="150" height="112" rx="12" fill="url(#node)" stroke="url(#edge)" filter="url(#shadow)"/>
-      <rect x="14" y="14" width="32" height="32" rx="8" fill="#C7EF72" fill-opacity=".1" stroke="#C7EF72" stroke-opacity=".4"/>
-      <g fill="none" stroke="#C7EF72" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 20h10l5 5v15H23z"/><path d="M33 20v5h5M27 31h7M27 35h5"/></g>
-      <text x="136" y="28" text-anchor="end" fill="#5A6062" font-family="Consolas, Menlo, monospace" font-size="10.5">03</text>
-      <text x="14" y="76" fill="#F2F2EE" font-size="17" font-weight="700">Comprobantes</text>
-      <text x="14" y="96" fill="#9EA39F" font-size="12">PDF automático</text>
+      <rect x="14" y="14" width="32" height="32" rx="8" fill="#A35CFF" fill-opacity=".1" stroke="#A35CFF" stroke-opacity=".4"/>
+      <g fill="none" stroke="#A35CFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 20h10l5 5v15H23z"/><path d="M33 20v5h5M27 31h7M27 35h5"/></g>
+      <text x="136" y="28" text-anchor="end" fill="#635B7A" font-family="Consolas, Menlo, monospace" font-size="10.5">03</text>
+      <text x="14" y="76" fill="#F5F3FA" font-size="17" font-weight="700">Comprobantes</text>
+      <text x="14" y="96" fill="#A69FBB" font-size="12">PDF automático</text>
     </g>
     <g transform="translate(1010 72)">
       <rect width="150" height="112" rx="12" fill="url(#node)" stroke="url(#edge)" filter="url(#shadow)"/>
-      <rect x="14" y="14" width="32" height="32" rx="8" fill="#C7EF72" fill-opacity=".1" stroke="#C7EF72" stroke-opacity=".4"/>
-      <g fill="none" stroke="#C7EF72" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M24 35V29a6 6 0 0 1 12 0v6l2 2H22z"/><path d="M28 40a2 2 0 0 0 4 0"/></g>
-      <circle cx="39" cy="20" r="3" fill="#C7EF72"/><circle cx="39" cy="20" r="3" fill="#C7EF72" class="pulse"/>
-      <text x="136" y="28" text-anchor="end" fill="#5A6062" font-family="Consolas, Menlo, monospace" font-size="10.5">04</text>
-      <text x="14" y="76" fill="#F2F2EE" font-size="17" font-weight="700">Notificaciones</text>
-      <text x="14" y="96" fill="#9EA39F" font-size="12">Avisos al cliente</text>
+      <rect x="14" y="14" width="32" height="32" rx="8" fill="#A35CFF" fill-opacity=".1" stroke="#A35CFF" stroke-opacity=".4"/>
+      <g fill="none" stroke="#A35CFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M24 35V29a6 6 0 0 1 12 0v6l2 2H22z"/><path d="M28 40a2 2 0 0 0 4 0"/></g>
+      <circle cx="39" cy="20" r="3" fill="#A35CFF"/><circle cx="39" cy="20" r="3" fill="#A35CFF" class="pulse"/>
+      <text x="136" y="28" text-anchor="end" fill="#635B7A" font-family="Consolas, Menlo, monospace" font-size="10.5">04</text>
+      <text x="14" y="76" fill="#F5F3FA" font-size="17" font-weight="700">Notificaciones</text>
+      <text x="14" y="96" fill="#A69FBB" font-size="12">Avisos al cliente</text>
     </g>
   </g>
 
   <!-- scheduled job -->
   <g transform="translate(470 210)" font-family="Consolas, Menlo, monospace">
-    <rect width="690" height="90" rx="12" fill="#0B0C0D" stroke="#2A2E30"/>
+    <rect width="690" height="90" rx="12" fill="#09080F" stroke="#29243A"/>
     <g transform="translate(40 45)">
-      <circle r="20" fill="none" stroke="#3A3F41" stroke-width="2"/>
-      <circle r="20" fill="none" stroke="#C7EF72" stroke-width="2" stroke-dasharray="4 8.56"/>
-      <path d="M0 0V-12" stroke="#F2F2EE" stroke-width="2" stroke-linecap="round" class="hand"/>
-      <circle r="2.5" fill="#C7EF72"/>
+      <circle r="20" fill="none" stroke="#3A3350" stroke-width="2"/>
+      <circle r="20" fill="none" stroke="#A35CFF" stroke-width="2" stroke-dasharray="4 8.56"/>
+      <path d="M0 0V-12" stroke="#F5F3FA" stroke-width="2" stroke-linecap="round" class="hand"/>
+      <circle r="2.5" fill="#A35CFF"/>
     </g>
-    <text x="76" y="38" fill="#C7EF72" font-size="11" letter-spacing="1.5">TAREA PROGRAMADA</text>
-    <text x="76" y="58" fill="#9EA39F" font-size="11.5">revisión de pagos</text>
-    <text x="76" y="74" fill="#9EA39F" font-size="11.5">vencidos</text>
+    <text x="76" y="38" fill="#A35CFF" font-size="11" letter-spacing="1.5">TAREA PROGRAMADA</text>
+    <text x="76" y="58" fill="#A69FBB" font-size="11.5">revisión de pagos</text>
+    <text x="76" y="74" fill="#A69FBB" font-size="11.5">vencidos</text>
     <g transform="translate(220 23)">
-      <rect width="450" height="44" rx="8" fill="#141618"/>
-      <g fill="#2A2E30">
+      <rect width="450" height="44" rx="8" fill="#13101C"/>
+      <g fill="#29243A">
         <rect x="12" y="12" width="20" height="20" rx="4"/><rect x="42" y="12" width="20" height="20" rx="4"/><rect x="72" y="12" width="20" height="20" rx="4"/><rect x="102" y="12" width="20" height="20" rx="4"/><rect x="132" y="12" width="20" height="20" rx="4"/><rect x="162" y="12" width="20" height="20" rx="4"/><rect x="192" y="12" width="20" height="20" rx="4"/>
         <rect x="222" y="12" width="20" height="20" rx="4"/><rect x="252" y="12" width="20" height="20" rx="4"/><rect x="282" y="12" width="20" height="20" rx="4"/><rect x="312" y="12" width="20" height="20" rx="4"/><rect x="342" y="12" width="20" height="20" rx="4"/><rect x="372" y="12" width="20" height="20" rx="4"/><rect x="402" y="12" width="20" height="20" rx="4"/>
       </g>
-      <g fill="#C7EF72" fill-opacity=".55">
+      <g fill="#A35CFF" fill-opacity=".55">
         <rect x="42" y="12" width="20" height="20" rx="4"/><rect x="132" y="12" width="20" height="20" rx="4"/><rect x="252" y="12" width="20" height="20" rx="4"/><rect x="372" y="12" width="20" height="20" rx="4"/>
       </g>
       <rect x="192" y="12" width="20" height="20" rx="4" fill="none" stroke="#E8C872" stroke-width="1.5"/>
       <rect x="312" y="12" width="20" height="20" rx="4" fill="none" stroke="#E8C872" stroke-width="1.5"/>
-      <g clip-path="url(#track)"><g class="scan"><rect x="-120" width="110" height="44" fill="url(#scanGrad)"/><rect x="-12" width="2" height="44" fill="#C7EF72"/></g></g>
+      <g clip-path="url(#track)"><g class="scan"><rect x="-120" width="110" height="44" fill="url(#scanGrad)"/><rect x="-12" width="2" height="44" fill="#A35CFF"/></g></g>
     </g>
   </g>
 </svg>
