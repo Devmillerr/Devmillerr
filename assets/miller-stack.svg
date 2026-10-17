@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="214" viewBox="0 0 1200 214" role="img" aria-labelledby="title desc">
+  <title id="title">Tecnologías</title>
+  <desc id="desc">TypeScript, Node.js, NestJS, Express, Next.js, PostgreSQL, Prisma, Jest, Postman y Git.</desc>
+  <style>
+    .float{animation:float 4s ease-in-out infinite}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+    .d1{animation-delay:-.4s}.d2{animation-delay:-.8s}.d3{animation-delay:-1.2s}.d4{animation-delay:-1.6s}.d5{animation-delay:-2s}.d6{animation-delay:-2.4s}.d7{animation-delay:-2.8s}.d8{animation-delay:-3.2s}.d9{animation-delay:-3.6s}
+    .sweep{animation:sweep 5s ease-in-out infinite}
+    @keyframes sweep{0%{transform:translateX(-200px)}70%,100%{transform:translateX(1300px)}}
+    .flow{stroke-dasharray:4 6;animation:flow 1.4s linear infinite}
+    @keyframes flow{to{stroke-dashoffset:-20}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#120F1F"/>
+      <stop offset=".5" stop-color="#171329"/>
+      <stop offset="1" stop-color="#120F1F"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1F1A33"/>
+      <stop offset="1" stop-color="#13101C"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A35CFF" stop-opacity=".6"/>
+      <stop offset=".45" stop-color="#3A3350"/>
+      <stop offset="1" stop-color="#25213A"/>
+    </linearGradient>
+    <linearGradient id="sweepGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A35CFF" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#A35CFF" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#A35CFF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#000" flood-opacity=".45"/>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="214" rx="12"/></clipPath>
+    <g id="tileBase">
+      <rect width="104" height="116" rx="12" fill="url(#tile)" stroke="url(#edge)" filter="url(#shadow)"/>
+      <rect x="26" y="16" width="52" height="52" rx="13" fill="#A35CFF" fill-opacity=".1" stroke="#A35CFF" stroke-opacity=".4"/>
+    </g>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="214" fill="url(#bg)"/>
+    <rect width="200" height="214" fill="url(#sweepGrad)" class="sweep"/>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="213" rx="12" fill="none" stroke="#FFFFFF" stroke-opacity=".07"/>
+
+  <!-- group labels -->
+  <g font-family="Consolas, Menlo, monospace" font-size="10.5" letter-spacing="2" fill="#635B7A">
+    <text x="14" y="30">LENGUAJE</text>
+    <text x="254" y="30">BACKEND</text>
+    <text x="494" y="30">FRONTEND</text>
+    <text x="620" y="30">DATOS</text>
+    <text x="860" y="30">TESTING / TOOLS</text>
+  </g>
+  <g stroke-width="1.5">
+    <path d="M14 42H232M254 42H472M494 42H598M620 42H838M860 42H1186" stroke="#29243A"/>
+    <path d="M14 42H232M254 42H472M494 42H598M620 42H838M860 42H1186" stroke="#A35CFF" stroke-opacity=".7" class="flow"/>
+  </g>
+
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" text-anchor="middle">
+    <g class="float"><g transform="translate(14 64)">
+      <use href="#tileBase"/>
+      <text x="52" y="49" fill="#D18BFF" font-family="Consolas, Menlo, monospace" font-size="20" font-weight="700">TS</text>
+      <text x="52" y="96" fill="#F5F3FA" font-size="13" font-weight="600">TypeScript</text>
+    </g></g>
+    <g class="float d1"><g transform="translate(128 64)">
+      <use href="#tileBase"/>
+      <path d="M52 28l14 8v16l-14 8-14-8V36z" fill="none" stroke="#D18BFF" stroke-width="2.2" stroke-linejoin="round"/>
+      <text x="52" y="47" fill="#D18BFF" font-family="Consolas, Menlo, monospace" font-size="10" font-weight="700">JS</text>
+      <text x="52" y="96" fill="#F5F3FA" font-size="13" font-weight="600">Node.js</text>
+    </g></g>
+    <g class="float d2"><g transform="translate(254 64)">
+      <use href="#tileBase"/>
+      <text x="52" y="49" fill="#D18BFF" font-family="Consolas, Menlo, monospace" font-size="18" font-weight="700">Ne</text>
+      <text x="52" y="96" fill="#F5F3FA" font-size="13" font-weight="600">NestJS</text>
+    </g></g>
+    <g class="float d3"><g transform="translate(368 64)">
+      <use href="#tileBase"/>
+      <text x="52" y="49" fill="#D18BFF" font-family="Consolas, Menlo, monospace" font-size="18" font-weight="700">ex</text>
+      <text x="52" y="96" fill="#F5F3FA" font-size="13" font-weight="600">Express</text>
+    </g></g>
+    <g class="float d4"><g transform="translate(494 64)">
+      <use href="#tileBase"/>
+      <circle cx="52" cy="42" r="15" fill="none" stroke="#D18BFF" stroke-width="2"/>
+      <text x="52" y="48" fill="#D18BFF" font-family="Consolas, Menlo, monospace" font-size="15" font-weight="700">N</text>
+      <text x="52" y="96" fill="#F5F3FA" font-size="13" font-weight="600">Next.js</text>
+    </g></g>
+    <g class="float d5"><g transform="translate(620 64)">
+      <use href="#tileBase"/>
+      <g fill="none" stroke="#D18BFF" stroke-width="2"><ellipse cx="52" cy="32" rx="11" ry="4"/><path d="M41 32v18c0 2.2 4.9 4 11 4s11-1.8 11-4V32M41 41c0 2.2 4.9 4 11 4s11-1.8 11-4"/></g>
+      <text x="52" y="96" fill="#F5F3FA" font-size="13" font-weight="600">PostgreSQL</text>
+    </g></g>
+    <g class="float d6"><g transform="translate(734 64)">
+      <use href="#tileBase"/>
+      <path d="M50 27L37 53l15 4 15-4z" fill="none" stroke="#D18BFF" stroke-width="2.2" stroke-linejoin="round"/>
+      <path d="M50 27l2 30" stroke="#D18BFF" stroke-width="2"/>
+      <text x="52" y="96" fill="#F5F3FA" font-size="13" font-weight="600">Prisma</text>
+    </g></g>
+    <g class="float d7"><g transform="translate(860 64)">
+      <use href="#tileBase"/>
+      <text x="52" y="49" fill="#D18BFF" font-family="Consolas, Menlo, monospace" font-size="20" font-weight="700">J</text>
+      <path d="M40 54h24" stroke="#A35CFF" stroke-width="2" stroke-linecap="round"/>
+      <text x="52" y="96" fill="#F5F3FA" font-size="13" font-weight="600">Jest</text>
+    </g></g>
+    <g class="float d8"><g transform="translate(974 64)">
+      <use href="#tileBase"/>
+      <circle cx="52" cy="42" r="14" fill="none" stroke="#D18BFF" stroke-width="2"/>
+      <path d="M46 47l12-11M52 36h6v6" fill="none" stroke="#D18BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="52" y="96" fill="#F5F3FA" font-size="13" font-weight="600">Postman</text>
+    </g></g>
+    <g class="float d9"><g transform="translate(1088 64)">
+      <use href="#tileBase"/>
+      <g fill="none" stroke="#D18BFF" stroke-width="2" stroke-linecap="round"><circle cx="45" cy="30" r="3.5"/><circle cx="45" cy="54" r="3.5"/><circle cx="60" cy="38" r="3.5"/><path d="M45 33.5v17M60 41.5c0 6-15 4-15 9"/></g>
+      <text x="52" y="96" fill="#F5F3FA" font-size="13" font-weight="600">Git</text>
+    </g></g>
+  </g>
+</svg>

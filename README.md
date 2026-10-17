@@ -68,39 +68,26 @@ Sistema de gestión para un proveedor de internet. Incluye gestión de clientes,
 
 ## ▍Cómo puedo ayudar
 
-<table>
-  <tr>
-    <td width="33%" valign="top"><h4>🧩 Sistemas a medida</h4>Módulos que reflejan los procesos reales del negocio.</td>
-    <td width="33%" valign="top"><h4>📱 Aplicaciones web y PWA</h4>Herramientas accesibles desde computadora y móvil.</td>
-    <td width="33%" valign="top"><h4>⚙️ Automatización</h4>Reducir tareas repetitivas y pasos manuales.</td>
-  </tr>
-  <tr>
-    <td width="33%" valign="top"><h4>🔌 APIs e integraciones</h4>Conectar sistemas y mantener la información sincronizada.</td>
-    <td width="33%" valign="top"><h4>📊 Dashboards y reportes</h4>Hacer más visible la información operativa.</td>
-    <td width="33%" valign="top"><h4>🛠️ Evolución de software</h4>Corregir, ampliar y mantener soluciones existentes.</td>
-  </tr>
-</table>
+<p align="center">
+  <img src="assets/miller-services.svg" alt="Servicios: sistemas a medida, aplicaciones web y PWA, automatización, APIs e integraciones, dashboards y reportes, evolución de software" width="100%">
+</p>
 
 <sub>No todos los negocios necesitan lo mismo. El alcance se define después de entender el proceso y validar la necesidad.</sub>
 
 ## ▍Experiencia profesional
 
-<table>
-  <tr>
-    <td>
-      <b>Camposol S.A.</b> &nbsp;·&nbsp; <i>Analista de implementación digital</i>
-      <br><br>
-      Análisis de requerimientos operativos, definición de reglas de negocio, validación funcional mediante dispositivos PDA y digitalización de formatos de trabajo.
-      <br><br>
-      <sub>Esta experiencia forma parte de mi trayectoria profesional y no representa un proyecto de MILLER_.</sub>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="assets/miller-experience.svg" alt="Camposol S.A. — Analista de implementación digital" width="100%">
+</p>
+
+Análisis de requerimientos operativos, definición de reglas de negocio, validación funcional mediante dispositivos PDA y digitalización de formatos de trabajo.
+
+<sub>Esta experiencia forma parte de mi trayectoria profesional y no representa un proyecto de MILLER_.</sub>
 
 ## ▍Tecnologías
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,nodejs,nestjs,express,nextjs,postgres,prisma,jest,postman,git&theme=dark&perline=10" alt="TypeScript, Node.js, NestJS, Express, Next.js, PostgreSQL, Prisma, Jest, Postman, Git">
+  <img src="assets/miller-stack.svg" alt="TypeScript, Node.js, NestJS, Express, Next.js, PostgreSQL, Prisma, Jest, Postman, Git" width="100%">
 </p>
 
 ## ▍Hablemos de tu proceso

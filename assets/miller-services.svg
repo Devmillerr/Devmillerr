@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="414" viewBox="0 0 1200 414" role="img" aria-labelledby="title desc">
+  <title id="title">Cómo puedo ayudar</title>
+  <desc id="desc">Seis servicios: sistemas a medida, aplicaciones web y PWA, automatización, APIs e integraciones, dashboards y reportes, y evolución de software existente.</desc>
+  <style>
+    .flow{stroke-dasharray:4 7;animation:flow 1.2s linear infinite}
+    .rev{animation-direction:reverse}
+    @keyframes flow{to{stroke-dashoffset:-22}}
+    .blk{animation:blk 3.5s ease-in-out infinite;fill-opacity:.15}
+    @keyframes blk{0%,100%{fill-opacity:.15}25%{fill-opacity:.9}50%{fill-opacity:.15}}
+    .d1{animation-delay:.25s}.d2{animation-delay:.5s}.d3{animation-delay:.75s}.d4{animation-delay:1s}.d5{animation-delay:1.25s}.d6{animation-delay:1.5s}
+    .spin{transform-box:fill-box;transform-origin:center;animation:spin 8s linear infinite}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .fill{transform-box:fill-box;transform-origin:left;animation:fill 4s ease-in-out infinite}
+    @keyframes fill{0%{transform:scaleX(0)}70%,100%{transform:scaleX(1)}}
+    .tick{animation:tick 4s ease-in-out infinite;opacity:.2}
+    @keyframes tick{0%{opacity:.2}100%{opacity:1}}
+    .t2{animation-name:tick2}.t3{animation-name:tick3}.t4{animation-name:tick4}
+    @keyframes tick2{0%,23%{opacity:.2}24%,100%{opacity:1}}
+    @keyframes tick3{0%,46%{opacity:.2}47%,100%{opacity:1}}
+    @keyframes tick4{0%,69%{opacity:.2}70%,100%{opacity:1}}
+    .pkt{animation:pkt 2.6s ease-in-out infinite alternate}
+    @keyframes pkt{from{transform:translateX(0)}to{transform:translateX(188px)}}
+    .bar{transform-box:fill-box;transform-origin:bottom;animation:grow 2.8s ease-in-out infinite}
+    @keyframes grow{0%,100%{transform:scaleY(.35)}50%{transform:scaleY(1)}}
+    .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-in-out infinite}
+    @keyframes pulse{0%,100%{opacity:.6;transform:scale(1)}50%{opacity:0;transform:scale(1.4)}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.blk{fill-opacity:.6}.tick{opacity:1}}
+  </style>
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1A1630"/>
+      <stop offset="1" stop-color="#110E1C"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A35CFF" stop-opacity=".65"/>
+      <stop offset=".3" stop-color="#3A3350"/>
+      <stop offset="1" stop-color="#25213A"/>
+    </linearGradient>
+    <radialGradient id="iconGlow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#A35CFF" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#A35CFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7A2CFC"/>
+      <stop offset="1" stop-color="#AA34FC"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000" flood-opacity=".45"/>
+    </filter>
+    <g id="cardBase">
+      <rect width="384" height="196" rx="12" fill="url(#card)" stroke="url(#edge)" filter="url(#shadow)"/>
+      <circle cx="44" cy="44" r="36" fill="url(#iconGlow)"/>
+      <rect x="22" y="22" width="44" height="44" rx="11" fill="#A35CFF" fill-opacity=".1" stroke="#A35CFF" stroke-opacity=".4"/>
+    </g>
+  </defs>
+
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <!-- 01 Sistemas a medida -->
+    <g transform="translate(6 6)">
+      <use href="#cardBase"/>
+      <g fill="none" stroke="#A35CFF" stroke-width="2" stroke-linejoin="round">
+        <rect x="33" y="33" width="10" height="10" rx="2"/><rect x="45" y="33" width="10" height="10" rx="2" fill="#A35CFF"/>
+        <rect x="33" y="45" width="10" height="10" rx="2"/><rect x="45" y="45" width="10" height="10" rx="2"/>
+      </g>
+      <text x="362" y="40" text-anchor="end" fill="#635B7A" font-family="Consolas, Menlo, monospace" font-size="11.5">01 / SISTEMAS</text>
+      <text x="22" y="96" fill="#F5F3FA" font-size="19" font-weight="700">Sistemas a medida</text>
+      <text x="22" y="120" fill="#A69FBB" font-size="13.5">Módulos que reflejan los procesos</text>
+      <text x="22" y="138" fill="#A69FBB" font-size="13.5">reales del negocio.</text>
+      <g transform="translate(22 156)" fill="#A35CFF">
+        <rect width="340" height="24" rx="6" fill="#0D0B15" stroke="#29243A"/>
+        <rect x="5" y="5" width="42" height="14" rx="3" class="blk"/>
+        <rect x="52" y="5" width="42" height="14" rx="3" class="blk d1"/>
+        <rect x="99" y="5" width="42" height="14" rx="3" class="blk d2"/>
+        <rect x="146" y="5" width="42" height="14" rx="3" class="blk d3"/>
+        <rect x="193" y="5" width="42" height="14" rx="3" class="blk d4"/>
+        <rect x="240" y="5" width="42" height="14" rx="3" class="blk d5"/>
+        <rect x="287" y="5" width="48" height="14" rx="3" class="blk d6"/>
+      </g>
+    </g>
+
+    <!-- 02 Aplicaciones web y PWA -->
+    <g transform="translate(408 6)">
+      <use href="#cardBase"/>
+      <g fill="none" stroke="#A35CFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="30" y="33" width="22" height="16" rx="2"/><path d="M36 54h10M41 49v5"/>
+        <rect x="50" y="38" width="9" height="16" rx="2" fill="#1A1630"/>
+      </g>
+      <text x="362" y="40" text-anchor="end" fill="#635B7A" font-family="Consolas, Menlo, monospace" font-size="11.5">02 / WEB + PWA</text>
+      <text x="22" y="96" fill="#F5F3FA" font-size="19" font-weight="700">Aplicaciones web y PWA</text>
+      <text x="22" y="120" fill="#A69FBB" font-size="13.5">Herramientas accesibles desde</text>
+      <text x="22" y="138" fill="#A69FBB" font-size="13.5">computadora y móvil.</text>
+      <g transform="translate(22 152)" font-family="Consolas, Menlo, monospace" font-size="10">
+        <rect width="70" height="32" rx="6" fill="#0D0B15" stroke="#3A3350"/>
+        <rect x="8" y="7" width="54" height="4" rx="2" fill="#A35CFF" fill-opacity=".7"/>
+        <rect x="8" y="15" width="38" height="3" rx="1.5" fill="#3A3350"/><rect x="8" y="22" width="46" height="3" rx="1.5" fill="#3A3350"/>
+        <rect x="314" y="0" width="26" height="32" rx="6" fill="#0D0B15" stroke="#3A3350"/>
+        <rect x="320" y="7" width="14" height="3" rx="1.5" fill="#A35CFF" fill-opacity=".7"/>
+        <rect x="320" y="14" width="10" height="3" rx="1.5" fill="#3A3350"/><circle cx="327" cy="25" r="1.6" fill="#635B7A"/>
+        <path d="M70 11H314" stroke="#A35CFF" stroke-width="1.8" class="flow"/>
+        <path d="M314 21H70" stroke="#D18BFF" stroke-opacity=".7" stroke-width="1.8" class="flow"/>
+        <rect x="160" y="6" width="54" height="20" rx="10" fill="#1A1630" stroke="#A35CFF" stroke-opacity=".5"/>
+        <text x="187" y="20" text-anchor="middle" fill="#D18BFF">sync</text>
+      </g>
+    </g>
+
+    <!-- 03 Automatización -->
+    <g transform="translate(810 6)">
+      <use href="#cardBase"/>
+      <g class="spin">
+        <circle cx="44" cy="44" r="9" fill="none" stroke="#A35CFF" stroke-width="4" stroke-dasharray="3.5 3.57"/>
+        <circle cx="44" cy="44" r="6.5" fill="none" stroke="#A35CFF" stroke-width="2"/>
+      </g>
+      <circle cx="44" cy="44" r="2" fill="#A35CFF"/>
+      <text x="362" y="40" text-anchor="end" fill="#635B7A" font-family="Consolas, Menlo, monospace" font-size="11.5">03 / AUTOMATE</text>
+      <text x="22" y="96" fill="#F5F3FA" font-size="19" font-weight="700">Automatización</text>
+      <text x="22" y="120" fill="#A69FBB" font-size="13.5">Reducir tareas repetitivas y</text>
+      <text x="22" y="138" fill="#A69FBB" font-size="13.5">pasos manuales.</text>
+      <g transform="translate(22 156)">
+        <rect x="12" y="10" width="316" height="4" rx="2" fill="#29243A"/>
+        <rect x="12" y="10" width="316" height="4" rx="2" fill="url(#accent)" class="fill"/>
+        <g class="tick"><circle cx="12" cy="12" r="11" fill="#A35CFF"/><path d="M7 12.5l3.5 3.5 6-7" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+        <g class="tick t2"><circle cx="117" cy="12" r="11" fill="#A35CFF"/><path d="M112 12.5l3.5 3.5 6-7" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+        <g class="tick t3"><circle cx="223" cy="12" r="11" fill="#A35CFF"/><path d="M218 12.5l3.5 3.5 6-7" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+        <g class="tick t4"><circle cx="328" cy="12" r="11" fill="#A35CFF"/><path d="M323 12.5l3.5 3.5 6-7" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+      </g>
+    </g>
+
+    <!-- 04 APIs e integraciones -->
+    <g transform="translate(6 212)">
+      <use href="#cardBase"/>
+      <g fill="none" stroke="#A35CFF" stroke-width="2" stroke-linecap="round">
+        <circle cx="35" cy="44" r="4.5"/><circle cx="53" cy="34" r="4.5"/><circle cx="53" cy="54" r="4.5" fill="#A35CFF"/>
+        <path d="M39 42l10-6M39 46l10 6"/>
+      </g>
+      <text x="362" y="40" text-anchor="end" fill="#635B7A" font-family="Consolas, Menlo, monospace" font-size="11.5">04 / CONNECT</text>
+      <text x="22" y="96" fill="#F5F3FA" font-size="19" font-weight="700">APIs e integraciones</text>
+      <text x="22" y="120" fill="#A69FBB" font-size="13.5">Conectar sistemas y mantener la</text>
+      <text x="22" y="138" fill="#A69FBB" font-size="13.5">información sincronizada.</text>
+      <g transform="translate(22 152)" font-family="Consolas, Menlo, monospace" font-size="10.5">
+        <rect width="76" height="32" rx="7" fill="#0D0B15" stroke="#3A3350"/>
+        <text x="38" y="20" text-anchor="middle" fill="#D0CAE0">ERP</text>
+        <rect x="264" width="76" height="32" rx="7" fill="#0D0B15" stroke="#3A3350"/>
+        <text x="302" y="20" text-anchor="middle" fill="#D0CAE0">APP</text>
+        <path d="M76 16H264" stroke="#29243A" stroke-width="2"/>
+        <g class="pkt"><rect x="76" y="9" width="30" height="14" rx="7" fill="#A35CFF"/><text x="91" y="19.5" text-anchor="middle" fill="#FFFFFF" font-size="9">{ }</text></g>
+      </g>
+    </g>
+
+    <!-- 05 Dashboards y reportes -->
+    <g transform="translate(408 212)">
+      <use href="#cardBase"/>
+      <g fill="none" stroke="#A35CFF" stroke-width="2" stroke-linecap="round">
+        <path d="M32 56h24"/><path d="M36 52v-8M42 52V36M48 52v-11M54 52V40" stroke-width="3"/>
+      </g>
+      <text x="362" y="40" text-anchor="end" fill="#635B7A" font-family="Consolas, Menlo, monospace" font-size="11.5">05 / INSIGHTS</text>
+      <text x="22" y="96" fill="#F5F3FA" font-size="19" font-weight="700">Dashboards y reportes</text>
+      <text x="22" y="120" fill="#A69FBB" font-size="13.5">Hacer más visible la información</text>
+      <text x="22" y="138" fill="#A69FBB" font-size="13.5">operativa.</text>
+      <g transform="translate(22 152)" fill="#A35CFF">
+        <path d="M0 32.5H340" stroke="#29243A"/>
+        <rect x="4" y="14" width="16" height="18" rx="2" fill-opacity=".45" class="bar"/>
+        <rect x="28" y="6" width="16" height="26" rx="2" fill-opacity=".6" class="bar d1"/>
+        <rect x="52" y="16" width="16" height="16" rx="2" fill-opacity=".45" class="bar d2"/>
+        <rect x="76" y="4" width="16" height="28" rx="2" fill-opacity=".75" class="bar d3"/>
+        <rect x="100" y="10" width="16" height="22" rx="2" fill-opacity=".6" class="bar d4"/>
+        <rect x="124" y="2" width="16" height="30" rx="2" class="bar d5"/>
+        <rect x="148" y="12" width="16" height="20" rx="2" fill-opacity=".5" class="bar d6"/>
+        <rect x="172" y="6" width="16" height="26" rx="2" fill-opacity=".65" class="bar"/>
+        <rect x="196" y="14" width="16" height="18" rx="2" fill-opacity=".45" class="bar d1"/>
+        <rect x="220" y="3" width="16" height="29" rx="2" fill-opacity=".8" class="bar d2"/>
+        <rect x="244" y="9" width="16" height="23" rx="2" fill-opacity=".55" class="bar d3"/>
+        <rect x="268" y="5" width="16" height="27" rx="2" fill-opacity=".7" class="bar d4"/>
+        <rect x="292" y="12" width="16" height="20" rx="2" fill-opacity=".5" class="bar d5"/>
+        <rect x="316" y="0" width="16" height="32" rx="2" class="bar d6"/>
+      </g>
+    </g>
+
+    <!-- 06 Evolución de software -->
+    <g transform="translate(810 212)">
+      <use href="#cardBase"/>
+      <g fill="none" stroke="#A35CFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M54 40a10 10 0 1 0 0 8"/><path d="M55 33v7h-7"/>
+        <path d="M44 39v6l3.5 2"/>
+      </g>
+      <text x="362" y="40" text-anchor="end" fill="#635B7A" font-family="Consolas, Menlo, monospace" font-size="11.5">06 / EVOLVE</text>
+      <text x="22" y="96" fill="#F5F3FA" font-size="19" font-weight="700">Evolución de software</text>
+      <text x="22" y="120" fill="#A69FBB" font-size="13.5">Corregir, ampliar y mantener</text>
+      <text x="22" y="138" fill="#A69FBB" font-size="13.5">soluciones existentes.</text>
+      <g transform="translate(22 152)" font-family="Consolas, Menlo, monospace" font-size="11" text-anchor="middle">
+        <path d="M66 16H137M203 16H274" stroke="#A35CFF" stroke-width="1.8" class="flow"/>
+        <rect width="66" height="32" rx="16" fill="#0D0B15" stroke="#3A3350"/><text x="33" y="20" fill="#958DAA">v1.0</text>
+        <rect x="137" width="66" height="32" rx="16" fill="#0D0B15" stroke="#3A3350"/><text x="170" y="20" fill="#D0CAE0">v1.1</text>
+        <rect x="274" width="66" height="32" rx="16" fill="none" stroke="#A35CFF" stroke-width="2" class="pulse"/>
+        <rect x="274" width="66" height="32" rx="16" fill="url(#accent)"/><text x="307" y="20" fill="#FFFFFF" font-weight="700">v2.0</text>
+      </g>
+    </g>
+  </g>
+</svg>
