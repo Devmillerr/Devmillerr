@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">MILLER_ — Software a medida para negocios</title>
+  <desc id="desc">Identidad de MILLER_ con una composición técnica sobria y un flujo de datos ordenado.</desc>
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#FFFFFF" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#17191B"/>
+      <stop offset="1" stop-color="#0B0C0D"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="8" fill="url(#fade)"/>
+  <rect width="1200" height="320" rx="8" fill="url(#grid)"/>
+  <path d="M760 0V320M920 0V320M1080 0V320" stroke="#FFFFFF" stroke-opacity=".08"/>
+  <path d="M720 60H1140V260H850" fill="none" stroke="#C7EF72" stroke-opacity=".5" stroke-width="1.5"/>
+  <path d="M850 260V220H990V175H1140" fill="none" stroke="#C7EF72" stroke-opacity=".5" stroke-width="1.5"/>
+  <circle cx="720" cy="60" r="4" fill="#C7EF72"/>
+  <circle cx="850" cy="260" r="4" fill="#C7EF72"/>
+  <circle cx="1140" cy="175" r="4" fill="#C7EF72"/>
+  <g transform="translate(790 82)">
+    <rect width="118" height="76" rx="5" fill="#202326" stroke="#555B5D"/>
+    <path d="M15 22H102M15 37H72M15 52H88" stroke="#B8BDB8" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="98" cy="52" r="4" fill="#C7EF72"/>
+  </g>
+  <g transform="translate(970 195)">
+    <rect width="145" height="64" rx="5" fill="#202326" stroke="#555B5D"/>
+    <path d="M16 18H129M16 32H84M16 46H108" stroke="#B8BDB8" stroke-width="3" stroke-linecap="round"/>
+    <path d="M116 31l5 5 9-12" fill="none" stroke="#C7EF72" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(58 48)">
+    <text x="0" y="28" fill="#C7EF72" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="4">SOFTWARE / OPERATIONS</text>
+    <text x="0" y="118" fill="#F2F2EE" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700" letter-spacing="-4">MILLER<tspan fill="#C7EF72">_</tspan></text>
+    <text x="2" y="163" fill="#F2F2EE" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500">Software a medida para negocios.</text>
+    <text x="2" y="205" fill="#A6AAA6" font-family="Arial, Helvetica, sans-serif" font-size="16">Procesos claros. Información conectada. Sistemas útiles.</text>
+  </g>
+  <text x="1142" y="294" text-anchor="end" fill="#A6AAA6" font-family="monospace" font-size="11" letter-spacing="2">BUILD / CONNECT / IMPROVE</text>
+</svg>

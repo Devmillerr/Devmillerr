@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">Sistema de gestión para lubricentro y lavado</title>
+  <desc id="desc">Diagrama conceptual de operaciones conectadas: vehículos, inventario, ventas y compras.</desc>
+  <rect width="900" height="360" rx="8" fill="#111314" stroke="#343839"/>
+  <text x="28" y="34" fill="#C7EF72" font-family="monospace" font-size="12" letter-spacing="2">CASE / OPERATIONS</text>
+  <text x="28" y="70" fill="#F2F2EE" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Gestión para lubricentro y lavado</text>
+  <text x="28" y="95" fill="#A6AAA6" font-family="Arial, Helvetica, sans-serif" font-size="14">Operaciones relacionadas en un mismo sistema</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="28" y="132" width="188" height="74" rx="5" fill="#202326" stroke="#555B5D"/>
+    <text x="45" y="157" fill="#C7EF72" font-family="monospace" font-size="11">01</text>
+    <text x="45" y="181" fill="#F2F2EE" font-size="17" font-weight="700">Vehículos</text>
+    <text x="45" y="196" fill="#A6AAA6" font-size="11">Historial y mantenimiento</text>
+    <rect x="250" y="132" width="188" height="74" rx="5" fill="#202326" stroke="#555B5D"/>
+    <text x="267" y="157" fill="#C7EF72" font-family="monospace" font-size="11">02</text>
+    <text x="267" y="181" fill="#F2F2EE" font-size="17" font-weight="700">Inventario</text>
+    <text x="267" y="196" fill="#A6AAA6" font-size="11">Productos y movimientos</text>
+    <rect x="472" y="132" width="188" height="74" rx="5" fill="#202326" stroke="#555B5D"/>
+    <text x="489" y="157" fill="#C7EF72" font-family="monospace" font-size="11">03</text>
+    <text x="489" y="181" fill="#F2F2EE" font-size="17" font-weight="700">Ventas y lavados</text>
+    <text x="489" y="196" fill="#A6AAA6" font-size="11">Registro de servicios</text>
+    <rect x="694" y="132" width="178" height="74" rx="5" fill="#202326" stroke="#555B5D"/>
+    <text x="711" y="157" fill="#C7EF72" font-family="monospace" font-size="11">04</text>
+    <text x="711" y="181" fill="#F2F2EE" font-size="17" font-weight="700">Compras</text>
+    <text x="711" y="196" fill="#A6AAA6" font-size="11">Proveedores y pagos</text>
+  </g>
+  <path d="M216 169H250M438 169H472M660 169H694" stroke="#C7EF72" stroke-width="2"/>
+  <circle cx="233" cy="169" r="3" fill="#C7EF72"/><circle cx="455" cy="169" r="3" fill="#C7EF72"/><circle cx="677" cy="169" r="3" fill="#C7EF72"/>
+  <path d="M28 238H872" stroke="#343839"/>
+  <text x="28" y="270" fill="#A6AAA6" font-family="monospace" font-size="11">STACK</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#F2F2EE">
+    <rect x="28" y="286" width="93" height="34" rx="4" fill="#202326" stroke="#555B5D"/><text x="74" y="307" text-anchor="middle">Next.js / PWA</text>
+    <rect x="132" y="286" width="88" height="34" rx="4" fill="#202326" stroke="#555B5D"/><text x="176" y="307" text-anchor="middle">NestJS</text>
+    <rect x="231" y="286" width="104" height="34" rx="4" fill="#202326" stroke="#555B5D"/><text x="283" y="307" text-anchor="middle">PostgreSQL</text>
+    <rect x="346" y="286" width="76" height="34" rx="4" fill="#202326" stroke="#555B5D"/><text x="384" y="307" text-anchor="middle">Prisma</text>
+  </g>
+  <text x="872" y="310" text-anchor="end" fill="#A6AAA6" font-family="monospace" font-size="11">DEMO / ANONYMIZED</text>
+</svg>

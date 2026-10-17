@@ -1,97 +1,92 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Devmillerr/Devmillerr/main/assets/banner.svg" alt="Miler Castro Martínez — Backend Developer · Analista de Implementación de Software" width="100%">
+  <img src="assets/miller-banner.svg" alt="MILLER_ — Software a medida para negocios" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://portfolio-delta-fawn-41.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-7C3AED?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"></a>
-  <a href="https://www.linkedin.com/in/devmillerr/"><img src="https://img.shields.io/badge/LinkedIn-5B21B6?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:castrojordy378@gmail.com"><img src="https://img.shields.io/badge/Email-150F26?style=flat-square&logo=gmail&logoColor=C4B5FD" alt="Email"></a>
+  <a href="https://portfolio-delta-fawn-41.vercel.app/"><img src="https://img.shields.io/badge/PORTAFOLIO-17191B?style=for-the-badge&logo=vercel&logoColor=F2F2EE" alt="Portafolio"></a>
+  <a href="https://www.linkedin.com/in/devmillerr/"><img src="https://img.shields.io/badge/LINKEDIN-17191B?style=for-the-badge&logo=linkedin&logoColor=F2F2EE" alt="LinkedIn"></a>
+  <a href="mailto:castrojordy378@gmail.com"><img src="https://img.shields.io/badge/CONTACTO-17191B?style=for-the-badge&logo=gmail&logoColor=C7EF72" alt="Correo electrónico"></a>
 </p>
 
-## Sobre mí
+## Software que se adapta al negocio
 
-Implementación de software, QA funcional y desarrollo backend aplicados a **operaciones reales**. Convierto requerimientos operativos en soluciones digitales funcionales, validadas y listas para producción.
+Soy Miler, desarrollador de software y responsable de **MILLER_**. Diseño y construyo soluciones digitales a medida para ayudar a los negocios a organizar sus operaciones, conectar información y reducir tareas manuales.
 
-## Qué hago
-
-<img src="https://raw.githubusercontent.com/Devmillerr/Devmillerr/main/assets/que-hago.svg" alt="Backend · APIs REST · Implementación · QA funcional · Análisis de requerimientos" width="100%">
-
-## Stack
-
-**Backend**
-
-![NestJS](https://img.shields.io/badge/NestJS-—-7C3AED?style=flat-square&logo=nestjs&logoColor=C4B5FD&labelColor=150F26)
-![Node.js](https://img.shields.io/badge/Node.js-—-7C3AED?style=flat-square&logo=nodedotjs&logoColor=C4B5FD&labelColor=150F26)
-![TypeScript](https://img.shields.io/badge/TypeScript-—-7C3AED?style=flat-square&logo=typescript&logoColor=C4B5FD&labelColor=150F26)
-![Express](https://img.shields.io/badge/Express-—-7C3AED?style=flat-square&logo=express&logoColor=C4B5FD&labelColor=150F26)
-
-**Datos**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-—-6D28D9?style=flat-square&logo=postgresql&logoColor=C4B5FD&labelColor=150F26)
-![Prisma](https://img.shields.io/badge/Prisma-—-6D28D9?style=flat-square&logo=prisma&logoColor=C4B5FD&labelColor=150F26)
-![SQL](https://img.shields.io/badge/SQL-—-6D28D9?style=flat-square&logo=databricks&logoColor=C4B5FD&labelColor=150F26)
-
-**Testing y API**
-
-![Jest](https://img.shields.io/badge/Jest-—-8B5CF6?style=flat-square&logo=jest&logoColor=C4B5FD&labelColor=150F26)
-![Postman](https://img.shields.io/badge/Postman-—-8B5CF6?style=flat-square&logo=postman&logoColor=C4B5FD&labelColor=150F26)
-![QA funcional](https://img.shields.io/badge/QA_funcional-8B5CF6?style=flat-square&labelColor=150F26)
-
-**Herramientas**
-
-![Git](https://img.shields.io/badge/Git-—-4C1D95?style=flat-square&logo=git&logoColor=C4B5FD&labelColor=150F26)
-![GitHub](https://img.shields.io/badge/GitHub-—-4C1D95?style=flat-square&logo=github&logoColor=C4B5FD&labelColor=150F26)
-![VS Code](https://img.shields.io/badge/VS_Code-—-4C1D95?style=flat-square&logo=visualstudiocode&logoColor=C4B5FD&labelColor=150F26)
-
-## Proyectos destacados
-
-<a href="https://github.com/Devmillerr/mega-red">
-  <img src="https://raw.githubusercontent.com/Devmillerr/Devmillerr/main/assets/proyecto-01-mega-red.svg" alt="Mega Red — sistema de gestión para un proveedor de internet" width="49%">
-</a>
-<a href="https://github.com/Devmillerr/nestjs-finance-api">
-  <img src="https://raw.githubusercontent.com/Devmillerr/Devmillerr/main/assets/proyecto-02-billing-api.svg" alt="API de Servicios y Facturación — presupuestos, contratos y facturación" width="49%">
-</a>
-<a href="https://github.com/Devmillerr/api-rest">
-  <img src="https://raw.githubusercontent.com/Devmillerr/Devmillerr/main/assets/proyecto-03-api-rest.svg" alt="Students & Courses API — API REST con arquitectura por capas y pruebas" width="49%">
-</a>
-
-**Mega Red** · Sistema de gestión para un proveedor de internet: clientes, pagos con vencimiento, comprobantes y notificaciones. Cuando un pago se completa, genera la factura en PDF y notifica al cliente; una tarea programada revisa cada noche los pagos vencidos y actualiza su estado.
-`NestJS` `TypeScript` `Prisma` `PostgreSQL` `pdfMake` `Nodemailer`
-[Repositorio](https://github.com/Devmillerr/mega-red) · [Demo](https://mega-red-frontend.vercel.app)
-
-**API de Servicios y Facturación** · API REST para el ciclo comercial de una empresa de servicios digitales: catálogo, presupuestos, contratos con equipo asignado, compras y facturación con impuestos y descuentos. Control de acceso por permisos nombrados sobre cuatro roles y generación de facturas, cotizaciones y recibos en PDF.
-`Express` `TypeScript` `Prisma` `PostgreSQL` `Joi` `Passport`
-[Repositorio](https://github.com/Devmillerr/nestjs-finance-api)
-
-**Students & Courses API** · API REST con arquitectura por capas, validación de entrada con Joi, migraciones versionadas y pruebas con Jest.
-`Express` `TypeScript` `Prisma` `PostgreSQL` `Jest`
-[Repositorio](https://github.com/Devmillerr/api-rest)
-
-## Experiencia
-
-**Camposol S.A.** — Implementación de Software y QA Funcional · *sept. 2024 – actualidad*
-
-Proyecto **DigiProy**: digitalización de procesos operativos en Producción, Calidad y Operaciones. Análisis de requerimientos, definición de reglas de negocio, pruebas funcionales en dispositivos PDA, despliegue y capacitación de usuarios.
-
-`60+ procesos digitalizados` · `50+ usuarios capacitados` · `3 áreas impactadas`
-
-> Proyecto corporativo. Código e información sensible omitidos.
-
-**I.E. Inmaculada de la Merced** — Backend Developer · *jul. 2022 – ene. 2024*
-
-Desarrollo de APIs REST con arquitectura modular, autenticación, persistencia con Prisma ORM e integración con PostgreSQL.
-
-## En qué estoy enfocado
-
-- Implementación y QA de procesos operativos en planta.
-- APIs REST con NestJS, TypeScript y Prisma.
-
-## Contacto
-
-<img src="https://raw.githubusercontent.com/Devmillerr/Devmillerr/main/assets/conectar.svg" alt="Abierto a oportunidades — castrojordy378@gmail.com" width="100%">
+Trabajo desde el problema operativo: primero entiendo el proceso y después defino qué solución tiene sentido construir.
 
 <p align="center">
-  <a href="https://portfolio-delta-fawn-41.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-7C3AED?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"></a>
-  <a href="https://www.linkedin.com/in/devmillerr/"><img src="https://img.shields.io/badge/LinkedIn-5B21B6?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:castrojordy378@gmail.com"><img src="https://img.shields.io/badge/Email-150F26?style=flat-square&logo=gmail&logoColor=C4B5FD" alt="Email"></a>
+  <img src="assets/miller-capabilities.svg" alt="Capacidades de MILLER_: sistemas a medida, automatización, integración de datos y aplicaciones web" width="100%">
+</p>
+
+## Proyectos seleccionados
+
+### 01 / Sistema de gestión para lubricentro y lavado
+
+Caso práctico de una solución web progresiva orientada a las operaciones de un negocio de servicios automotrices. El trabajo aborda el seguimiento de vehículos y mantenimientos, productos e inventario, ventas, lavados, compras y cuentas por pagar.
+
+**Qué demuestra:** modelado de procesos de negocio, relaciones entre operaciones, gestión de inventario por movimientos y una interfaz pensada para el uso diario.
+
+`Next.js` `PWA` `NestJS` `PostgreSQL` `Prisma`
+
+> Caso presentado de forma anonimizada. Los datos reales del negocio no se publican.
+
+### 02 / FinanceApi
+
+API financiera desarrollada como proyecto propio para trabajar con reglas de negocio, persistencia y operaciones consistentes. Incluye manejo de importes en unidades enteras, snapshots de precios, idempotencia y mecanismos de renovación de sesión que deben evaluarse en el contexto de la implementación disponible.
+
+**Qué demuestra:** diseño de backend, modelado de datos, integridad de operaciones y atención a aspectos de seguridad.
+
+`NestJS` `TypeScript` `PostgreSQL` `Prisma` `JWT`
+
+[Ver demo](https://financeapi-v3-web.vercel.app/)
+
+### 03 / Mega Red
+
+Sistema de gestión para un proveedor de internet. Incluye gestión de clientes, pagos con vencimiento, comprobantes y notificaciones. El flujo descrito genera documentos PDF tras completar pagos y revisa los pagos vencidos mediante una tarea programada.
+
+`NestJS` `TypeScript` `Prisma` `PostgreSQL`
+
+[Repositorio](https://github.com/Devmillerr/mega-red) · [Demo](https://mega-red-frontend.vercel.app/)
+
+## Cómo puedo ayudar
+
+- **Sistemas a medida:** módulos que reflejan los procesos reales del negocio.
+- **Aplicaciones web y PWA:** herramientas accesibles desde computadora y móvil.
+- **Automatización:** reducir tareas repetitivas y pasos manuales.
+- **APIs e integraciones:** conectar sistemas y mantener la información sincronizada.
+- **Dashboards y reportes:** hacer más visible la información operativa.
+- **Evolución de software existente:** corregir, ampliar y mantener soluciones.
+
+No todos los negocios necesitan lo mismo. El alcance se define después de entender el proceso y validar la necesidad.
+
+## Experiencia profesional
+
+**Camposol S.A. — Implementación digital y validación funcional**  
+Experiencia en análisis de requerimientos operativos, definición de reglas de negocio, validación funcional mediante dispositivos PDA y digitalización de formatos de trabajo. Esta experiencia forma parte de mi trayectoria profesional y no representa un proyecto de MILLER_.
+
+## Tecnologías
+
+<p>
+  <img src="https://img.shields.io/badge/TypeScript-202326?style=flat-square&logo=typescript&logoColor=F2F2EE" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Node.js-202326?style=flat-square&logo=nodedotjs&logoColor=F2F2EE" alt="Node.js">
+  <img src="https://img.shields.io/badge/NestJS-202326?style=flat-square&logo=nestjs&logoColor=F2F2EE" alt="NestJS">
+  <img src="https://img.shields.io/badge/Express-202326?style=flat-square&logo=express&logoColor=F2F2EE" alt="Express">
+  <img src="https://img.shields.io/badge/PostgreSQL-202326?style=flat-square&logo=postgresql&logoColor=F2F2EE" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/Prisma-202326?style=flat-square&logo=prisma&logoColor=F2F2EE" alt="Prisma">
+  <img src="https://img.shields.io/badge/Jest-202326?style=flat-square&logo=jest&logoColor=F2F2EE" alt="Jest">
+  <img src="https://img.shields.io/badge/Postman-202326?style=flat-square&logo=postman&logoColor=F2F2EE" alt="Postman">
+  <img src="https://img.shields.io/badge/Git-202326?style=flat-square&logo=git&logoColor=F2F2EE" alt="Git">
+</p>
+
+## Hablemos de tu proceso
+
+¿Tu negocio depende de hojas de cálculo, mensajes y tareas repetitivas? Cuéntame qué necesitas ordenar y evaluamos qué solución tiene sentido.
+
+<p align="center">
+  <a href="mailto:castrojordy378@gmail.com"><img src="https://img.shields.io/badge/Conversar_sobre_un_proyecto-202326?style=for-the-badge&logo=gmail&logoColor=C7EF72" alt="Conversar sobre un proyecto"></a>
+  <a href="https://www.linkedin.com/in/devmillerr/"><img src="https://img.shields.io/badge/LinkedIn-202326?style=for-the-badge&logo=linkedin&logoColor=F2F2EE" alt="LinkedIn"></a>
+</p>
+
+<p align="center">
+  <sub>MILLER_ · Software a medida para negocios</sub>
 </p>
