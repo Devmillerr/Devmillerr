@@ -29,7 +29,7 @@
     <path d="M116 31l5 5 9-12" fill="none" stroke="#C7EF72" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
   <g transform="translate(58 48)">
-    <text x="0" y="28" fill="#C7EF72" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="4">SOFTWARE / OPERATIONS</text>
+    <text x="0" y="28" fill="#C7EF72" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="4">SOFTWARE / AUTOMATION</text>
     <text x="0" y="118" fill="#F2F2EE" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700" letter-spacing="-4">MILLER<tspan fill="#C7EF72">_</tspan></text>
     <text x="2" y="163" fill="#F2F2EE" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="500">Software a medida para negocios.</text>
     <text x="2" y="205" fill="#A6AAA6" font-family="Arial, Helvetica, sans-serif" font-size="16">Procesos claros. Información conectada. Sistemas útiles.</text>
