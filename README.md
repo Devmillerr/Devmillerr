@@ -3,90 +3,119 @@
 </p>
 
 <p align="center">
-  <a href="https://portfolio-delta-fawn-41.vercel.app/"><img src="https://img.shields.io/badge/PORTAFOLIO-17191B?style=for-the-badge&logo=vercel&logoColor=F2F2EE" alt="Portafolio"></a>
-  <a href="https://www.linkedin.com/in/devmillerr/"><img src="https://img.shields.io/badge/LINKEDIN-17191B?style=for-the-badge&logo=linkedin&logoColor=F2F2EE" alt="LinkedIn"></a>
+  <a href="https://portfolio-delta-fawn-41.vercel.app/"><img src="https://img.shields.io/badge/PORTAFOLIO-C7EF72?style=for-the-badge&logo=vercel&logoColor=17191B&labelColor=C7EF72" alt="Portafolio"></a>
+  <a href="https://www.linkedin.com/in/devmillerr/"><img src="https://img.shields.io/badge/LINKEDIN-17191B?style=for-the-badge&logo=linkedin&logoColor=C7EF72" alt="LinkedIn"></a>
   <a href="mailto:castrojordy378@gmail.com"><img src="https://img.shields.io/badge/CONTACTO-17191B?style=for-the-badge&logo=gmail&logoColor=C7EF72" alt="Correo electrónico"></a>
 </p>
 
-## Software que se adapta al negocio
+<br>
 
-Soy Miler, desarrollador de software y responsable de **MILLER_**. Diseño y construyo soluciones digitales a medida para ayudar a los negocios a organizar sus operaciones, conectar información y reducir tareas manuales.
+## ▍Software que se adapta al negocio
 
-Trabajo desde el problema operativo: primero entiendo el proceso y después defino qué solución tiene sentido construir.
+Soy Miler, desarrollador de software y responsable de **MILLER_**. Diseño y construyo soluciones digitales a medida para ayudar a los negocios a **organizar sus operaciones**, **conectar información** y **reducir tareas manuales**.
 
 <p align="center">
   <img src="assets/miller-capabilities.svg" alt="Capacidades de MILLER_: sistemas a medida, automatización, integración de datos y aplicaciones web" width="100%">
 </p>
 
-## Proyectos seleccionados
+## ▍Cómo trabajo
 
-### 01 / Sistema de gestión para lubricentro y lavado
+Trabajo desde el problema operativo: primero entiendo el proceso y después defino qué solución tiene sentido construir.
 
-Caso práctico de una solución web progresiva orientada a las operaciones de un negocio de servicios automotrices. El trabajo aborda el seguimiento de vehículos y mantenimientos, productos e inventario, ventas, lavados, compras y cuentas por pagar.
+<p align="center">
+  <img src="assets/miller-process.svg" alt="Proceso de trabajo: entender el proceso, definir la solución, construir e integrar, medir y evolucionar" width="100%">
+</p>
 
-**Qué demuestra:** modelado de procesos de negocio, relaciones entre operaciones, gestión de inventario por movimientos y una interfaz pensada para el uso diario.
+## ▍Proyectos seleccionados
 
-`Next.js` `PWA` `NestJS` `PostgreSQL` `Prisma`
+<p align="center">
+  <img src="assets/project-lubricentro.svg" alt="Sistema de gestión para lubricentro y lavado" width="100%">
+</p>
 
-> Caso presentado de forma anonimizada. Los datos reales del negocio no se publican.
+Caso práctico de una solución web progresiva orientada a las operaciones de un negocio de servicios automotrices. Aborda el seguimiento de vehículos y mantenimientos, productos e inventario, ventas, lavados, compras y cuentas por pagar.
 
-### 02 / FinanceApi
+> [!NOTE]
+> **Qué demuestra:** modelado de procesos de negocio, relaciones entre operaciones, gestión de inventario por movimientos y una interfaz pensada para el uso diario.
+> <br><sub>Caso presentado de forma anonimizada. Los datos reales del negocio no se publican.</sub>
+
+<br>
+
+<p align="center">
+  <a href="https://financeapi-v3-web.vercel.app/"><img src="assets/project-financeapi.svg" alt="FinanceApi — backend y reglas de negocio" width="100%"></a>
+</p>
 
 API financiera desarrollada como proyecto propio para trabajar con reglas de negocio, persistencia y operaciones consistentes. Incluye manejo de importes en unidades enteras, snapshots de precios, idempotencia y mecanismos de renovación de sesión que deben evaluarse en el contexto de la implementación disponible.
 
-**Qué demuestra:** diseño de backend, modelado de datos, integridad de operaciones y atención a aspectos de seguridad.
-
-`NestJS` `TypeScript` `PostgreSQL` `Prisma` `JWT`
-
-[Ver demo](https://financeapi-v3-web.vercel.app/)
-
-### 03 / Mega Red
-
-Sistema de gestión para un proveedor de internet. Incluye gestión de clientes, pagos con vencimiento, comprobantes y notificaciones. El flujo descrito genera documentos PDF tras completar pagos y revisa los pagos vencidos mediante una tarea programada.
-
-`NestJS` `TypeScript` `Prisma` `PostgreSQL`
-
-[Repositorio](https://github.com/Devmillerr/mega-red) · [Demo](https://mega-red-frontend.vercel.app/)
-
-## Cómo puedo ayudar
-
-- **Sistemas a medida:** módulos que reflejan los procesos reales del negocio.
-- **Aplicaciones web y PWA:** herramientas accesibles desde computadora y móvil.
-- **Automatización:** reducir tareas repetitivas y pasos manuales.
-- **APIs e integraciones:** conectar sistemas y mantener la información sincronizada.
-- **Dashboards y reportes:** hacer más visible la información operativa.
-- **Evolución de software existente:** corregir, ampliar y mantener soluciones.
-
-No todos los negocios necesitan lo mismo. El alcance se define después de entender el proceso y validar la necesidad.
-
-## Experiencia profesional
-
-**Camposol S.A. — Implementación digital y validación funcional**  
-Experiencia en análisis de requerimientos operativos, definición de reglas de negocio, validación funcional mediante dispositivos PDA y digitalización de formatos de trabajo. Esta experiencia forma parte de mi trayectoria profesional y no representa un proyecto de MILLER_.
-
-## Tecnologías
+> [!NOTE]
+> **Qué demuestra:** diseño de backend, modelado de datos, integridad de operaciones y atención a aspectos de seguridad.
 
 <p>
-  <img src="https://img.shields.io/badge/TypeScript-202326?style=flat-square&logo=typescript&logoColor=F2F2EE" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Node.js-202326?style=flat-square&logo=nodedotjs&logoColor=F2F2EE" alt="Node.js">
-  <img src="https://img.shields.io/badge/NestJS-202326?style=flat-square&logo=nestjs&logoColor=F2F2EE" alt="NestJS">
-  <img src="https://img.shields.io/badge/Express-202326?style=flat-square&logo=express&logoColor=F2F2EE" alt="Express">
-  <img src="https://img.shields.io/badge/PostgreSQL-202326?style=flat-square&logo=postgresql&logoColor=F2F2EE" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/Prisma-202326?style=flat-square&logo=prisma&logoColor=F2F2EE" alt="Prisma">
-  <img src="https://img.shields.io/badge/Jest-202326?style=flat-square&logo=jest&logoColor=F2F2EE" alt="Jest">
-  <img src="https://img.shields.io/badge/Postman-202326?style=flat-square&logo=postman&logoColor=F2F2EE" alt="Postman">
-  <img src="https://img.shields.io/badge/Git-202326?style=flat-square&logo=git&logoColor=F2F2EE" alt="Git">
+  <a href="https://financeapi-v3-web.vercel.app/"><img src="https://img.shields.io/badge/Ver_demo-C7EF72?style=for-the-badge&logo=vercel&logoColor=17191B" alt="Ver demo de FinanceApi"></a>
 </p>
 
-## Hablemos de tu proceso
+<br>
+
+<p align="center">
+  <a href="https://github.com/Devmillerr/mega-red"><img src="assets/project-mega-red.svg" alt="Mega Red — sistema de gestión" width="100%"></a>
+</p>
+
+Sistema de gestión para un proveedor de internet. Incluye gestión de clientes, pagos con vencimiento, comprobantes y notificaciones. El flujo genera documentos PDF tras completar pagos y revisa los pagos vencidos mediante una tarea programada.
+
+<p>
+  <a href="https://github.com/Devmillerr/mega-red"><img src="https://img.shields.io/badge/Repositorio-17191B?style=for-the-badge&logo=github&logoColor=C7EF72" alt="Repositorio de Mega Red"></a>
+  <a href="https://mega-red-frontend.vercel.app/"><img src="https://img.shields.io/badge/Ver_demo-C7EF72?style=for-the-badge&logo=vercel&logoColor=17191B" alt="Ver demo de Mega Red"></a>
+</p>
+
+## ▍Cómo puedo ayudar
+
+<table>
+  <tr>
+    <td width="33%" valign="top"><h4>🧩 Sistemas a medida</h4>Módulos que reflejan los procesos reales del negocio.</td>
+    <td width="33%" valign="top"><h4>📱 Aplicaciones web y PWA</h4>Herramientas accesibles desde computadora y móvil.</td>
+    <td width="33%" valign="top"><h4>⚙️ Automatización</h4>Reducir tareas repetitivas y pasos manuales.</td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top"><h4>🔌 APIs e integraciones</h4>Conectar sistemas y mantener la información sincronizada.</td>
+    <td width="33%" valign="top"><h4>📊 Dashboards y reportes</h4>Hacer más visible la información operativa.</td>
+    <td width="33%" valign="top"><h4>🛠️ Evolución de software</h4>Corregir, ampliar y mantener soluciones existentes.</td>
+  </tr>
+</table>
+
+<sub>No todos los negocios necesitan lo mismo. El alcance se define después de entender el proceso y validar la necesidad.</sub>
+
+## ▍Experiencia profesional
+
+<table>
+  <tr>
+    <td>
+      <b>Camposol S.A.</b> &nbsp;·&nbsp; <i>Implementación digital y validación funcional</i>
+      <br><br>
+      Análisis de requerimientos operativos, definición de reglas de negocio, validación funcional mediante dispositivos PDA y digitalización de formatos de trabajo.
+      <br><br>
+      <sub>Esta experiencia forma parte de mi trayectoria profesional y no representa un proyecto de MILLER_.</sub>
+    </td>
+  </tr>
+</table>
+
+## ▍Tecnologías
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,nodejs,nestjs,express,nextjs,postgres,prisma,jest,postman,git&theme=dark&perline=10" alt="TypeScript, Node.js, NestJS, Express, Next.js, PostgreSQL, Prisma, Jest, Postman, Git">
+</p>
+
+## ▍Hablemos de tu proceso
 
 ¿Tu negocio depende de hojas de cálculo, mensajes y tareas repetitivas? Cuéntame qué necesitas ordenar y evaluamos qué solución tiene sentido.
 
 <p align="center">
-  <a href="mailto:castrojordy378@gmail.com"><img src="https://img.shields.io/badge/Conversar_sobre_un_proyecto-202326?style=for-the-badge&logo=gmail&logoColor=C7EF72" alt="Conversar sobre un proyecto"></a>
-  <a href="https://www.linkedin.com/in/devmillerr/"><img src="https://img.shields.io/badge/LinkedIn-202326?style=for-the-badge&logo=linkedin&logoColor=F2F2EE" alt="LinkedIn"></a>
+  <a href="mailto:castrojordy378@gmail.com"><img src="assets/miller-contact.svg" alt="Hablemos de tu proceso — escríbeme" width="100%"></a>
 </p>
 
 <p align="center">
-  <sub>MILLER_ · Software a medida para negocios</sub>
+  <a href="mailto:castrojordy378@gmail.com"><img src="https://img.shields.io/badge/Conversar_sobre_un_proyecto-C7EF72?style=for-the-badge&logo=gmail&logoColor=17191B" alt="Conversar sobre un proyecto"></a>
+  <a href="https://www.linkedin.com/in/devmillerr/"><img src="https://img.shields.io/badge/LinkedIn-17191B?style=for-the-badge&logo=linkedin&logoColor=C7EF72" alt="LinkedIn"></a>
+</p>
+
+<p align="center">
+  <sub><b>MILLER_</b> · Software a medida para negocios</sub>
 </p>

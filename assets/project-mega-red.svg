@@ -1,24 +1,137 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
   <title id="title">Mega Red — sistema de gestión</title>
-  <desc id="desc">Diagrama visual de clientes, pagos, comprobantes y notificaciones.</desc>
-  <rect width="900" height="260" rx="8" fill="#111314" stroke="#343839"/>
-  <text x="28" y="34" fill="#C7EF72" font-family="monospace" font-size="12" letter-spacing="2">PROJECT / MANAGEMENT</text>
-  <text x="28" y="72" fill="#F2F2EE" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">Mega Red</text>
-  <text x="28" y="99" fill="#A6AAA6" font-family="Arial, Helvetica, sans-serif" font-size="15">Clientes, pagos y seguimiento de vencimientos</text>
-  <g font-family="Arial, Helvetica, sans-serif">
-    <rect x="28" y="132" width="184" height="76" rx="5" fill="#202326" stroke="#555B5D"/>
-    <text x="44" y="157" fill="#C7EF72" font-family="monospace" font-size="11">01</text>
-    <text x="44" y="184" fill="#F2F2EE" font-size="17" font-weight="700">Clientes</text>
-    <rect x="244" y="132" width="184" height="76" rx="5" fill="#202326" stroke="#555B5D"/>
-    <text x="260" y="157" fill="#C7EF72" font-family="monospace" font-size="11">02</text>
-    <text x="260" y="184" fill="#F2F2EE" font-size="17" font-weight="700">Pagos</text>
-    <rect x="460" y="132" width="184" height="76" rx="5" fill="#202326" stroke="#555B5D"/>
-    <text x="476" y="157" fill="#C7EF72" font-family="monospace" font-size="11">03</text>
-    <text x="476" y="184" fill="#F2F2EE" font-size="17" font-weight="700">Comprobantes</text>
-    <rect x="676" y="132" width="196" height="76" rx="5" fill="#202326" stroke="#555B5D"/>
-    <text x="692" y="157" fill="#C7EF72" font-family="monospace" font-size="11">04</text>
-    <text x="692" y="184" fill="#F2F2EE" font-size="17" font-weight="700">Notificaciones</text>
+  <desc id="desc">Flujo de clientes, pagos, comprobantes y notificaciones, con una tarea programada que revisa vencimientos.</desc>
+  <style>
+    .flow{stroke-dasharray:6 8;animation:flow 1.2s linear infinite}
+    @keyframes flow{to{stroke-dashoffset:-28}}
+    .scan{animation:scan 6s linear infinite}
+    @keyframes scan{from{transform:translateX(0)}to{transform:translateX(560px)}}
+    .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-in-out infinite}
+    @keyframes pulse{0%,100%{opacity:.25;transform:scale(1)}50%{opacity:.9;transform:scale(2.2)}}
+    .hand{transform-origin:0 0;animation:spin 6s linear infinite}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1A1D20"/>
+      <stop offset="1" stop-color="#0D0F10"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".72" cy=".35" r=".55">
+      <stop offset="0" stop-color="#7FD8C0" stop-opacity=".11"/>
+      <stop offset="1" stop-color="#7FD8C0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="node" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#23272A"/>
+      <stop offset="1" stop-color="#17191B"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C7EF72" stop-opacity=".6"/>
+      <stop offset=".4" stop-color="#3A3F41"/>
+      <stop offset="1" stop-color="#2A2E30"/>
+    </linearGradient>
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C7EF72" stop-opacity="0"/>
+      <stop offset="1" stop-color="#C7EF72" stop-opacity=".35"/>
+    </linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="150%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000" flood-opacity=".5"/>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="330" rx="14"/></clipPath>
+    <clipPath id="track"><rect x="0" y="0" width="560" height="44" rx="8"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="330" fill="url(#bg)"/>
+    <rect width="1200" height="330" fill="url(#glow)"/>
+    <text x="1180" y="300" text-anchor="end" fill="#FFFFFF" fill-opacity=".03" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="240" font-weight="800">03</text>
   </g>
-  <path d="M212 170H244M428 170H460M644 170H676" stroke="#C7EF72" stroke-width="2"/>
-  <text x="28" y="239" fill="#A6AAA6" font-family="monospace" font-size="11">NestJS · TypeScript · Prisma · PostgreSQL</text>
+  <rect x=".5" y=".5" width="1199" height="329" rx="14" fill="none" stroke="#FFFFFF" stroke-opacity=".08"/>
+
+  <path d="M0 44H1200" stroke="#FFFFFF" stroke-opacity=".06"/>
+  <circle cx="24" cy="22" r="5" fill="#3A3F41"/><circle cx="42" cy="22" r="5" fill="#3A3F41"/><circle cx="60" cy="22" r="5" fill="#C7EF72"/>
+  <text x="84" y="26" fill="#6E7470" font-family="Consolas, Menlo, monospace" font-size="12">~/proyectos/mega-red</text>
+  <rect x="1000" y="11" width="178" height="22" rx="11" fill="#C7EF72" fill-opacity=".08" stroke="#C7EF72" stroke-opacity=".35"/>
+  <text x="1089" y="26" text-anchor="middle" fill="#C7EF72" font-family="Consolas, Menlo, monospace" font-size="10.5" letter-spacing="1.5">PROJECT / MANAGEMENT</text>
+
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="40" y="90" fill="#C7EF72" font-family="Consolas, Menlo, monospace" font-size="12" letter-spacing="2">03 — PROVEEDOR DE INTERNET</text>
+    <text x="38" y="136" fill="#F2F2EE" font-size="40" font-weight="800" letter-spacing="-1">Mega Red</text>
+    <text x="40" y="168" fill="#9EA39F" font-size="15">Clientes, pagos con vencimiento,</text>
+    <text x="40" y="189" fill="#9EA39F" font-size="15">comprobantes y notificaciones.</text>
+    <g font-family="Consolas, Menlo, monospace" font-size="12" text-anchor="middle">
+      <rect x="40" y="216" width="66" height="26" rx="13" fill="#202326" stroke="#3A3F41"/><text x="73" y="233" fill="#D6DAD5">NestJS</text>
+      <rect x="114" y="216" width="94" height="26" rx="13" fill="#202326" stroke="#3A3F41"/><text x="161" y="233" fill="#D6DAD5">TypeScript</text>
+      <rect x="216" y="216" width="66" height="26" rx="13" fill="#202326" stroke="#3A3F41"/><text x="249" y="233" fill="#D6DAD5">Prisma</text>
+      <rect x="290" y="216" width="94" height="26" rx="13" fill="#202326" stroke="#3A3F41"/><text x="337" y="233" fill="#D6DAD5">PostgreSQL</text>
+    </g>
+    <text x="40" y="306" fill="#6E7470" font-family="Consolas, Menlo, monospace" font-size="11" letter-spacing="1.5">● REPOSITORIO + DEMO</text>
+  </g>
+
+  <!-- flow nodes -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <path d="M620 128H650M800 128H830M980 128H1010" stroke="#2A2E30" stroke-width="2"/>
+    <path d="M620 128H650M800 128H830M980 128H1010" stroke="#C7EF72" stroke-width="2" class="flow"/>
+
+    <g transform="translate(470 72)">
+      <rect width="150" height="112" rx="12" fill="url(#node)" stroke="url(#edge)" filter="url(#shadow)"/>
+      <rect x="14" y="14" width="32" height="32" rx="8" fill="#C7EF72" fill-opacity=".1" stroke="#C7EF72" stroke-opacity=".4"/>
+      <g fill="none" stroke="#C7EF72" stroke-width="2" stroke-linecap="round"><circle cx="30" cy="26" r="4.5"/><path d="M22 39c1.5-4 4.5-6 8-6s6.5 2 8 6"/></g>
+      <text x="136" y="28" text-anchor="end" fill="#5A6062" font-family="Consolas, Menlo, monospace" font-size="10.5">01</text>
+      <text x="14" y="76" fill="#F2F2EE" font-size="17" font-weight="700">Clientes</text>
+      <text x="14" y="96" fill="#9EA39F" font-size="12">Planes y servicio</text>
+    </g>
+    <g transform="translate(650 72)">
+      <rect width="150" height="112" rx="12" fill="url(#node)" stroke="url(#edge)" filter="url(#shadow)"/>
+      <rect x="14" y="14" width="32" height="32" rx="8" fill="#C7EF72" fill-opacity=".1" stroke="#C7EF72" stroke-opacity=".4"/>
+      <g fill="none" stroke="#C7EF72" stroke-width="2" stroke-linecap="round"><rect x="20" y="22" width="20" height="14" rx="2.5"/><path d="M20 27h20M24 32h5"/></g>
+      <text x="136" y="28" text-anchor="end" fill="#5A6062" font-family="Consolas, Menlo, monospace" font-size="10.5">02</text>
+      <text x="14" y="76" fill="#F2F2EE" font-size="17" font-weight="700">Pagos</text>
+      <text x="14" y="96" fill="#9EA39F" font-size="12">Con vencimiento</text>
+    </g>
+    <g transform="translate(830 72)">
+      <rect width="150" height="112" rx="12" fill="url(#node)" stroke="url(#edge)" filter="url(#shadow)"/>
+      <rect x="14" y="14" width="32" height="32" rx="8" fill="#C7EF72" fill-opacity=".1" stroke="#C7EF72" stroke-opacity=".4"/>
+      <g fill="none" stroke="#C7EF72" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 20h10l5 5v15H23z"/><path d="M33 20v5h5M27 31h7M27 35h5"/></g>
+      <text x="136" y="28" text-anchor="end" fill="#5A6062" font-family="Consolas, Menlo, monospace" font-size="10.5">03</text>
+      <text x="14" y="76" fill="#F2F2EE" font-size="17" font-weight="700">Comprobantes</text>
+      <text x="14" y="96" fill="#9EA39F" font-size="12">PDF automático</text>
+    </g>
+    <g transform="translate(1010 72)">
+      <rect width="150" height="112" rx="12" fill="url(#node)" stroke="url(#edge)" filter="url(#shadow)"/>
+      <rect x="14" y="14" width="32" height="32" rx="8" fill="#C7EF72" fill-opacity=".1" stroke="#C7EF72" stroke-opacity=".4"/>
+      <g fill="none" stroke="#C7EF72" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M24 35V29a6 6 0 0 1 12 0v6l2 2H22z"/><path d="M28 40a2 2 0 0 0 4 0"/></g>
+      <circle cx="39" cy="20" r="3" fill="#C7EF72"/><circle cx="39" cy="20" r="3" fill="#C7EF72" class="pulse"/>
+      <text x="136" y="28" text-anchor="end" fill="#5A6062" font-family="Consolas, Menlo, monospace" font-size="10.5">04</text>
+      <text x="14" y="76" fill="#F2F2EE" font-size="17" font-weight="700">Notificaciones</text>
+      <text x="14" y="96" fill="#9EA39F" font-size="12">Avisos al cliente</text>
+    </g>
+  </g>
+
+  <!-- scheduled job -->
+  <g transform="translate(470 210)" font-family="Consolas, Menlo, monospace">
+    <rect width="690" height="90" rx="12" fill="#0B0C0D" stroke="#2A2E30"/>
+    <g transform="translate(40 45)">
+      <circle r="20" fill="none" stroke="#3A3F41" stroke-width="2"/>
+      <circle r="20" fill="none" stroke="#C7EF72" stroke-width="2" stroke-dasharray="4 8.56"/>
+      <path d="M0 0V-12" stroke="#F2F2EE" stroke-width="2" stroke-linecap="round" class="hand"/>
+      <circle r="2.5" fill="#C7EF72"/>
+    </g>
+    <text x="76" y="38" fill="#C7EF72" font-size="11" letter-spacing="1.5">TAREA PROGRAMADA</text>
+    <text x="76" y="58" fill="#9EA39F" font-size="11.5">revisión de pagos</text>
+    <text x="76" y="74" fill="#9EA39F" font-size="11.5">vencidos</text>
+    <g transform="translate(220 23)">
+      <rect width="450" height="44" rx="8" fill="#141618"/>
+      <g fill="#2A2E30">
+        <rect x="12" y="12" width="20" height="20" rx="4"/><rect x="42" y="12" width="20" height="20" rx="4"/><rect x="72" y="12" width="20" height="20" rx="4"/><rect x="102" y="12" width="20" height="20" rx="4"/><rect x="132" y="12" width="20" height="20" rx="4"/><rect x="162" y="12" width="20" height="20" rx="4"/><rect x="192" y="12" width="20" height="20" rx="4"/>
+        <rect x="222" y="12" width="20" height="20" rx="4"/><rect x="252" y="12" width="20" height="20" rx="4"/><rect x="282" y="12" width="20" height="20" rx="4"/><rect x="312" y="12" width="20" height="20" rx="4"/><rect x="342" y="12" width="20" height="20" rx="4"/><rect x="372" y="12" width="20" height="20" rx="4"/><rect x="402" y="12" width="20" height="20" rx="4"/>
+      </g>
+      <g fill="#C7EF72" fill-opacity=".55">
+        <rect x="42" y="12" width="20" height="20" rx="4"/><rect x="132" y="12" width="20" height="20" rx="4"/><rect x="252" y="12" width="20" height="20" rx="4"/><rect x="372" y="12" width="20" height="20" rx="4"/>
+      </g>
+      <rect x="192" y="12" width="20" height="20" rx="4" fill="none" stroke="#E8C872" stroke-width="1.5"/>
+      <rect x="312" y="12" width="20" height="20" rx="4" fill="none" stroke="#E8C872" stroke-width="1.5"/>
+      <g clip-path="url(#track)"><g class="scan"><rect x="-120" width="110" height="44" fill="url(#scanGrad)"/><rect x="-12" width="2" height="44" fill="#C7EF72"/></g></g>
+    </g>
+  </g>
 </svg>

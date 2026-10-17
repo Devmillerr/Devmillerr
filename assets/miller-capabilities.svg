@@ -1,43 +1,124 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="178" viewBox="0 0 1200 178" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="title desc">
   <title id="title">Capacidades de MILLER_</title>
   <desc id="desc">Cuatro áreas: sistemas a medida, automatización, integración de datos y aplicaciones web.</desc>
-  <rect width="1200" height="178" rx="6" fill="#111314" stroke="#343839"/>
-  <g font-family="Arial, Helvetica, sans-serif">
-    <g transform="translate(26 25)">
-      <text x="0" y="13" fill="#C7EF72" font-size="12" font-family="monospace">01 / BUILD</text>
-      <text x="0" y="48" fill="#F2F2EE" font-size="21" font-weight="700">Sistemas a medida</text>
-      <text x="0" y="76" fill="#A6AAA6" font-size="14">Módulos adaptados al proceso.</text>
-      <path d="M0 105H245" stroke="#454A4A"/>
-      <path d="M0 120H170" stroke="#454A4A"/>
-      <path d="M0 135H205" stroke="#C7EF72" stroke-opacity=".8"/>
+  <style>
+    .flow{stroke-dasharray:4 7;animation:flow 1.2s linear infinite}
+    @keyframes flow{to{stroke-dashoffset:-22}}
+    .spin{transform-box:fill-box;transform-origin:center;animation:spin 8s linear infinite}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .fill{transform-box:fill-box;transform-origin:left;animation:fill 4s ease-in-out infinite}
+    @keyframes fill{0%{transform:scaleX(.15)}60%,100%{transform:scaleX(1)}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1C1F22"/>
+      <stop offset="1" stop-color="#121415"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C7EF72" stop-opacity=".65"/>
+      <stop offset=".3" stop-color="#3A3F41"/>
+      <stop offset="1" stop-color="#26292B"/>
+    </linearGradient>
+    <radialGradient id="iconGlow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#C7EF72" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#C7EF72" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lime" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C7EF72"/>
+      <stop offset="1" stop-color="#7FD8C0"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000" flood-opacity=".45"/>
+    </filter>
+    <g id="cardBase">
+      <rect width="282" height="206" rx="12" fill="url(#card)" stroke="url(#edge)" filter="url(#shadow)"/>
+      <circle cx="44" cy="46" r="36" fill="url(#iconGlow)"/>
+      <rect x="22" y="24" width="44" height="44" rx="11" fill="#C7EF72" fill-opacity=".1" stroke="#C7EF72" stroke-opacity=".4"/>
     </g>
-    <path d="M300 22V156" stroke="#343839"/>
-    <g transform="translate(326 25)">
-      <text x="0" y="13" fill="#C7EF72" font-size="12" font-family="monospace">02 / AUTOMATE</text>
-      <text x="0" y="48" fill="#F2F2EE" font-size="21" font-weight="700">Menos tareas manuales</text>
-      <text x="0" y="76" fill="#A6AAA6" font-size="14">Flujos repetibles y consistentes.</text>
-      <circle cx="18" cy="119" r="9" fill="none" stroke="#A6AAA6" stroke-width="2"/>
-      <path d="M27 119H88L100 107H150" fill="none" stroke="#C7EF72" stroke-width="2"/>
-      <circle cx="159" cy="107" r="6" fill="#C7EF72"/>
+  </defs>
+
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <!-- 01 BUILD -->
+    <g transform="translate(6 8)">
+      <use href="#cardBase"/>
+      <g fill="none" stroke="#C7EF72" stroke-width="2" stroke-linejoin="round">
+        <rect x="33" y="35" width="10" height="10" rx="2"/><rect x="45" y="35" width="10" height="10" rx="2" fill="#C7EF72"/>
+        <rect x="33" y="47" width="10" height="10" rx="2"/><rect x="45" y="47" width="10" height="10" rx="2"/>
+      </g>
+      <text x="260" y="42" text-anchor="end" fill="#5A6062" font-family="Consolas, Menlo, monospace" font-size="12">01 / BUILD</text>
+      <text x="22" y="104" fill="#F2F2EE" font-size="20" font-weight="700">Sistemas a medida</text>
+      <text x="22" y="128" fill="#9EA39F" font-size="13.5">Módulos adaptados al proceso real.</text>
+      <g transform="translate(22 156)">
+        <rect width="238" height="26" rx="6" fill="#0E1011" stroke="#2A2E30"/>
+        <rect x="6" y="6" width="54" height="14" rx="3" fill="#C7EF72" fill-opacity=".85"/>
+        <rect x="64" y="6" width="54" height="14" rx="3" fill="#3A3F41"/>
+        <rect x="122" y="6" width="54" height="14" rx="3" fill="#3A3F41"/>
+        <rect x="180" y="6" width="52" height="14" rx="3" fill="#C7EF72" fill-opacity=".35"/>
+      </g>
     </g>
-    <path d="M600 22V156" stroke="#343839"/>
-    <g transform="translate(626 25)">
-      <text x="0" y="13" fill="#C7EF72" font-size="12" font-family="monospace">03 / CONNECT</text>
-      <text x="0" y="48" fill="#F2F2EE" font-size="21" font-weight="700">Información conectada</text>
-      <text x="0" y="76" fill="#A6AAA6" font-size="14">APIs, datos e integraciones.</text>
-      <rect x="0" y="104" width="58" height="32" rx="3" fill="#222627" stroke="#656B68"/>
-      <rect x="91" y="104" width="58" height="32" rx="3" fill="#222627" stroke="#656B68"/>
-      <path d="M58 120H91" stroke="#C7EF72" stroke-width="2"/>
-      <path d="M83 114L91 120L83 126" fill="none" stroke="#C7EF72" stroke-width="2"/>
+
+    <!-- 02 AUTOMATE -->
+    <g transform="translate(306 8)">
+      <use href="#cardBase"/>
+      <g class="spin">
+        <path d="M44 34.5a11.5 11.5 0 1 1-10.2 6.2" fill="none" stroke="#C7EF72" stroke-width="2.2" stroke-linecap="round"/>
+        <path d="M31 36.5l2.8 4.4 4.6-2.4" fill="none" stroke="#C7EF72" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text x="260" y="42" text-anchor="end" fill="#5A6062" font-family="Consolas, Menlo, monospace" font-size="12">02 / AUTOMATE</text>
+      <text x="22" y="104" fill="#F2F2EE" font-size="20" font-weight="700">Menos tareas manuales</text>
+      <text x="22" y="128" fill="#9EA39F" font-size="13.5">Flujos repetibles y consistentes.</text>
+      <g transform="translate(22 156)">
+        <circle cx="12" cy="13" r="11" fill="#0E1011" stroke="#5A6062" stroke-width="1.5"/>
+        <path d="M8 13h8" stroke="#9EA39F" stroke-width="2" stroke-linecap="round"/>
+        <path d="M23 13H108" stroke="#C7EF72" stroke-width="2" class="flow"/>
+        <circle cx="119" cy="13" r="11" fill="#0E1011" stroke="#5A6062" stroke-width="1.5"/>
+        <path d="M115 9l7 4-7 4z" fill="#9EA39F"/>
+        <path d="M130 13H215" stroke="#C7EF72" stroke-width="2" class="flow"/>
+        <circle cx="226" cy="13" r="11" fill="#C7EF72"/>
+        <path d="M221 13.5l3.5 3.5 6.5-7" fill="none" stroke="#121415" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
     </g>
-    <path d="M900 22V156" stroke="#343839"/>
-    <g transform="translate(926 25)">
-      <text x="0" y="13" fill="#C7EF72" font-size="12" font-family="monospace">04 / OPERATE</text>
-      <text x="0" y="48" fill="#F2F2EE" font-size="21" font-weight="700">Aplicaciones web</text>
-      <text x="0" y="76" fill="#A6AAA6" font-size="14">Herramientas para el día a día.</text>
-      <rect x="0" y="101" width="218" height="39" rx="4" fill="#222627" stroke="#656B68"/>
-      <circle cx="13" cy="113" r="2.5" fill="#C7EF72"/>
-      <path d="M25 113H98M13 126H198M13 133H143" stroke="#6B716D" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- 03 CONNECT -->
+    <g transform="translate(606 8)">
+      <use href="#cardBase"/>
+      <g fill="none" stroke="#C7EF72" stroke-width="2" stroke-linecap="round">
+        <circle cx="35" cy="46" r="4.5"/><circle cx="53" cy="36" r="4.5"/><circle cx="53" cy="56" r="4.5" fill="#C7EF72"/>
+        <path d="M39 44l10-6M39 48l10 6"/>
+      </g>
+      <text x="260" y="42" text-anchor="end" fill="#5A6062" font-family="Consolas, Menlo, monospace" font-size="12">03 / CONNECT</text>
+      <text x="22" y="104" fill="#F2F2EE" font-size="20" font-weight="700">Información conectada</text>
+      <text x="22" y="128" fill="#9EA39F" font-size="13.5">APIs, datos e integraciones.</text>
+      <g transform="translate(22 152)" font-family="Consolas, Menlo, monospace" font-size="10.5">
+        <rect width="74" height="34" rx="7" fill="#0E1011" stroke="#3A3F41"/>
+        <text x="37" y="21" text-anchor="middle" fill="#C9CDC8">APP</text>
+        <rect x="164" width="74" height="34" rx="7" fill="#0E1011" stroke="#3A3F41"/>
+        <text x="201" y="21" text-anchor="middle" fill="#C9CDC8">DB</text>
+        <path d="M74 12H164" stroke="#C7EF72" stroke-width="1.8" class="flow"/>
+        <path d="M164 23H74" stroke="#7FD8C0" stroke-opacity=".7" stroke-width="1.8" class="flow"/>
+        <rect x="100" y="7" width="38" height="20" rx="10" fill="#1C1F22" stroke="#C7EF72" stroke-opacity=".5"/>
+        <text x="119" y="21" text-anchor="middle" fill="#C7EF72" font-size="9.5">API</text>
+      </g>
+    </g>
+
+    <!-- 04 OPERATE -->
+    <g transform="translate(906 8)">
+      <use href="#cardBase"/>
+      <g fill="none" stroke="#C7EF72" stroke-width="2" stroke-linejoin="round">
+        <rect x="31" y="35" width="26" height="20" rx="3"/>
+        <path d="M38 60h12M44 55v5" stroke-linecap="round"/>
+        <path d="M35 49l5-5 4 3 7-6" stroke-linecap="round"/>
+      </g>
+      <text x="260" y="42" text-anchor="end" fill="#5A6062" font-family="Consolas, Menlo, monospace" font-size="12">04 / OPERATE</text>
+      <text x="22" y="104" fill="#F2F2EE" font-size="20" font-weight="700">Aplicaciones web</text>
+      <text x="22" y="128" fill="#9EA39F" font-size="13.5">Herramientas para el día a día.</text>
+      <g transform="translate(22 150)">
+        <rect width="238" height="40" rx="7" fill="#0E1011" stroke="#3A3F41"/>
+        <circle cx="12" cy="11" r="2.5" fill="#C7EF72"/><circle cx="21" cy="11" r="2.5" fill="#3A3F41"/><circle cx="30" cy="11" r="2.5" fill="#3A3F41"/>
+        <rect x="10" y="22" width="218" height="8" rx="4" fill="#22262A"/>
+        <rect x="10" y="22" width="160" height="8" rx="4" fill="url(#lime)" class="fill"/>
+      </g>
     </g>
   </g>
 </svg>
